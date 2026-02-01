@@ -10,7 +10,7 @@ const ProjectPage =() => {
     return(
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'Projects'} pagesub={'Project'}/> 
+            <PageTitle pageTitle={'Deployments'} pagesub={'Project'}/>
             <ProjectSection prClass={'projects-pg-section section-padding'}/>
             <Footer/>
             <Scrollbar/>

@@ -48,8 +48,8 @@ const ProductTabs = (props) => {
                             <Row>
                                 <Col sm="12">
                                     <div id="Schedule">
-                                    <p>Digiroc Technologies provides comprehensive market intelligence and strategic consulting services tailored to enterprise clients and investment firms operating in African markets. Our data-driven approach combines advanced analytics with deep local market expertise to deliver actionable insights that drive business growth and minimize investment risk.</p>
-                                    <p>Our team of experienced analysts and consultants work closely with clients to understand their specific needs, delivering customized solutions that address complex business challenges. From market entry strategies to operational optimization, Digiroc is your trusted partner for strategic intelligence and technology solutions.</p>
+                                    <p>Digiroc Technologies provides enterprise IT distribution and solutions across Africa, delivering hardware, software, cloud platforms, and infrastructure services with reliable logistics and support.</p>
+                                    <p>We work closely with enterprise customers to ensure secure deployment, licensing compliance, and long‑term lifecycle support across all environments.</p>
                                     </div>
                                 </Col>
                             </Row>
@@ -80,7 +80,7 @@ const ProductTabs = (props) => {
                                             </div>
                                         </div>
                                         <div className="review-body">
-                                            <p>Digiroc's market research insights helped us validate our expansion strategy across three African markets. Their data-driven approach and deep local expertise proved invaluable for our investment decision-making process.</p>
+                                            <p>Digiroc delivered our hardware rollout on time with excellent support and smooth procurement coordination.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ const ProductTabs = (props) => {
                                             </div>
                                         </div>
                                         <div className="review-body">
-                                            <p>Outstanding analytics capabilities combined with strategic consulting. Digiroc transformed our raw operational data into actionable insights that directly improved our bottom line. Highly recommend their services for enterprise clients.</p>
+                                            <p>Great vendor access and reliable delivery. Their cloud enablement support accelerated our Microsoft 365 deployment.</p>
                                         </div>
                                     </div>
                                 </div>

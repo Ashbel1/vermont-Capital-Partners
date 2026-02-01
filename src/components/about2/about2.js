@@ -11,11 +11,11 @@ const About2 = (props) => {
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-s2">
                             <span>About Digiroc Technologies</span>
-                            <h2>Empowering Growth Through<br />Data & Technology</h2>
+                            <h2>Enterprise IT Distribution<br />& Solutions</h2>
                         </div>
                         <div className="about-content">
-                            <h4>Strategic Partner for Enterprise Transformation</h4>
-                            <p>Digiroc Technologies specializes in three complementary domains that drive enterprise value: Market Research delivering competitive intelligence for strategic decision-making, Advanced Analytics unlocking hidden opportunities through data science, and IT Distribution enabling seamless technology adoption across enterprise ecosystems. We combine deep market expertise with technology enablement to help enterprises, investors, and technology vendors achieve accelerated growth and sustainable competitive advantage.</p>
+                            <h4>Reliable Supply. Secure Deployment.</h4>
+                            <p>Digiroc Technologies delivers enterprise hardware and software distribution, cloud enablement, and infrastructure services. We help organizations deploy Microsoft, Azure, AWS, storage, and networking solutions with dependable logistics and lifecycle support.</p>
                             <h5>Phone: +263718911411, Email: info@digiroc.co.zw</h5>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const About2 = (props) => {
                         <div className="img-holder">
                             <img src={abimg} alt="" />
                             <div className="experience-text">
-                                25 Years of <span>Experience</span>
+                                Enterprise-Ready <span>IT Distribution</span>
                             </div>
                             <VideoModal />
                         </div>

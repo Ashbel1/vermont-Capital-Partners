@@ -3,26 +3,26 @@ import CountUp from 'react-countup';
 
 const funFact = [
     {
-        title: '25',
-        subTitle: 'Years of experience',
+        title: '10',
+        subTitle: 'Years in IT distribution',
         Symbol: '+',
         icon: 'fi flaticon-diamond',
     },
     {
-        title: '250',
-        subTitle: 'Happy clients',
+        title: '200',
+        subTitle: 'Enterprise clients served',
         Symbol: '+',
         icon: 'fi flaticon-happy',
     },
     {
-        title: '137',
-        subTitle: 'Projects done',
+        title: '50',
+        subTitle: 'Vendor partnerships',
         Symbol: '+',
         icon: 'fi flaticon-projector',
     },
     {
-        title: '13',
-        subTitle: 'Awards won',
+        title: '15',
+        subTitle: 'Markets supported',
         Symbol: '+',
         icon: 'fi flaticon-medal',
     },

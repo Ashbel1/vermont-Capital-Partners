@@ -15,8 +15,8 @@ const ServiceSection = () => {
                     <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section-title-s3">
                             <span>About Digiroc</span>
-                            <h2>Strategic Technology & Intelligence Partner</h2>
-                            <p>Digiroc Technologies partners with enterprises, investors, and technology vendors to accelerate growth through data-driven insights, optimized IT distribution, and strategic market intelligence. We unlock competitive advantage by transforming complex data into actionable insights and enabling seamless technology adoption.</p>
+                            <h2>Enterprise IT Distribution & Solutions</h2>
+                            <p>Digiroc Technologies supplies hardware, software, and enterprise platforms across Africa. We enable secure deployment of Azure, AWS, Microsoft 365, storage, networking, and security solutions with reliable logistics and lifecycle support.</p>
                         </div>
                     </div>
                 </div>

@@ -56,33 +56,31 @@ const Header2 = (props) => {
                             <li className="menu-item-has-children">
                                 <Link onClick={ClickHandler} to="/">Services</Link>
                                 <ul className="sub-menu">
-                                    <li><Link onClick={ClickHandler} to="/services">Service style 1</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/services-s2">Service style 2</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-s3">Service style 3</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Market-Research">Market Research</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Corporate-Finance">Corporate Finance</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Advanced-Analytics">Advance Analytics</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Change-Management">Change Management</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Strategy-Marketing">Stragegy & Marketing</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/services">All Services</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/services-s2">Solutions Grid</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-s3">Service Highlights</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/IT-Distribution">IT Distribution & Supply Chain</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/Enterprise-Cloud">Enterprise Cloud & Productivity</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/Data-Storage-Infrastructure">Data Storage & Infrastructure</Link></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
                                 <Link onClick={ClickHandler} to="/">Projects</Link>
                                 <ul className="sub-menu">
-                                    <li><Link onClick={ClickHandler} to="/projects">Projects</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/projects-s2">Projects style 2</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/project-single/Market-Research">Project single</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/projects">Deployments</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/projects-s2">Deployment Grid</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/project-single/Enterprise-Hardware-Rollout">Featured Deployment</Link></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
                                 <Link onClick={ClickHandler} to="/">Blog</Link>
                                 <ul className="sub-menu">
-                                    <li><Link onClick={ClickHandler} to="/blog">Blog Default</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog-left-sidebar">Blog left sidebar</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog-fullwidth">Blog full width</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">Blog details default</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog-single-left-sidebar/Consulting-Success-is-the-most-comprehensive-learning">Blog details left sidebar</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog-single-fullwidth/Consulting-Success-is-the-most-comprehensive-learning">Blog details full width</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog">Insights</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog-left-sidebar">Insights (Left)</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog-fullwidth">Insights (Full)</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog-single/Building-resilient-it-supply-chains-in-africa">Featured Insight</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog-single-left-sidebar/Building-resilient-it-supply-chains-in-africa">Featured Insight (Left)</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog-single-fullwidth/Building-resilient-it-supply-chains-in-africa">Featured Insight (Full)</Link></li>
                                 </ul>
                             </li>
                             <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>

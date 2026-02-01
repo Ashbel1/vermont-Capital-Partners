@@ -24,12 +24,12 @@ const Testimonial2 = () => {
                         <div className="testimonial-slider">
                             <Slider {...settings}>
                                 <div className="testimonials-area">
-                                    <p>Digiroc's market intelligence and analytics capabilities have been instrumental in our investment decisions across emerging African markets. Their team delivers actionable insights that directly impact our portfolio performance and risk management strategies.</p>
-                                    <span className="quoter">Investment Director, PE Firm</span>
+                                    <p>Digiroc delivers the hardware, software, and licensing we need on time, with strong vendor relationships and reliable logistics.</p>
+                                    <span className="quoter">Procurement Manager, Enterprise</span>
                                 </div>
                                 <div className="testimonials-area">
-                                    <p>The IT distribution and supply chain solutions from Digiroc have streamlined our technology procurement process significantly. Their expertise in African markets and strong vendor relationships deliver real value to our operations.</p>
-                                    <span className="quoter">CTO, Enterprise Technology Company</span>
+                                    <p>Their cloud enablement and storage solutions helped us modernize quickly while staying secure and compliant.</p>
+                                    <span className="quoter">CTO, Financial Services</span>
                                 </div>
                             </Slider>
                         </div>

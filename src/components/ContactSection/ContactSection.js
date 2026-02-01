@@ -13,10 +13,10 @@ const ContactSection = () => {
                     </div>
                 </div>
                 <div className="right-col">
-                    <div className="section-title-s2">
-                        <span>Contact</span>
-                        <h2>Request a free consulting</h2>
-                    </div>
+                        <div className="section-title-s2">
+                            <span>Contact</span>
+                            <h2>Request a quote or consultation</h2>
+                        </div>
                     <div className="contact-form">
                         <ContactForm />
                     </div>

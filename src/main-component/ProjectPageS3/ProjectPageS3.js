@@ -10,7 +10,7 @@ const ProjectPageS3 =() => {
     return(
         <Fragment>
             <Navbar3/>
-            <PageTitle pageTitle={'Projects'} pagesub={'Project'}/> 
+            <PageTitle pageTitle={'Deployments'} pagesub={'Project'}/>
             <ProjectSection3 pClass={'border-bt'}/>
             <Footer/>
             <Scrollbar/>

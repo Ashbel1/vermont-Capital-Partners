@@ -25,7 +25,7 @@ const TeamSinglePage = (props) => {
     return (
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={TeamDetails.name} pagesub='team Single' />
+            <PageTitle pageTitle={TeamDetails.name} pagesub='Team' />
             <section className="team-sigle-section section-padding">
                 <div className="container">
                     <div className="row">
@@ -54,8 +54,8 @@ const TeamSinglePage = (props) => {
                                             <ul>
                                                 <li><i className="ti-mobile"></i><span>Phone: </span>+263718911411</li>
                                                 <li><i className="ti-email"></i><span>Email: </span>info@digiroc.co.zw</li>
-                                                <li><i className="ti-timer"></i><span>Experience: </span>11 Years</li>
-                                                <li><i className="ti-location-pin"></i><span>Address: </span>45 big fella street, sweet home, Bela</li>
+                                                <li><i className="ti-timer"></i><span>Experience: </span>10+ Years</li>
+                                                <li><i className="ti-location-pin"></i><span>Address: </span>59 Ridgeway North, Highlands, Harare, Zimbabwe</li>
                                             </ul>
                                         </div>
                                         <div className="social">
@@ -71,22 +71,22 @@ const TeamSinglePage = (props) => {
                                 </div>
                                 <div className="team-details">
                                     <h2>About Me</h2>
-                                    <p>As a senior analyst at Digiroc Technologies, I specialize in market research and competitive intelligence across emerging African markets. With deep expertise in data analytics and strategic consulting, I help enterprises and investors make informed decisions through comprehensive market insights and actionable intelligence.</p>
+                                    <p>I support enterprise customers with hardware sourcing, cloud enablement, and infrastructure delivery across Africa. My focus is ensuring reliable supply, secure deployment, and long-term support for critical business systems.</p>
                                     <h2>Experience</h2>
-                                    <p>Over 8 years of experience in market research, business intelligence, and strategic consulting across technology, telecommunications, and financial services sectors. Proven track record of delivering high-impact research projects for PE/VC firms, multinational corporations, and technology vendors expanding into African markets.</p>
-                                    <h2>Education</h2>
-                                    <p>MBA in Business Analytics from top-tier business school, with specialized certifications in market research methodologies, data science, and strategic analysis.</p>
+                                    <p>10+ years across IT distribution, infrastructure delivery, and enterprise platform rollouts including Microsoft, Azure, AWS, storage, networking, and security solutions.</p>
+                                    <h2>Certifications</h2>
+                                    <p>Industry certifications across enterprise platforms, infrastructure, and security with a focus on large-scale deployments and operations.</p>
                                     <h2>Achievements</h2>
                                     <ul>
-                                        <li>- Led 50+ market research projects across 15 African countries</li>
-                                        <li>- Supported $200M+ in PE/VC investment decisions</li>
-                                        <li>- Published thought leadership on African market dynamics</li>
-                                        <li>- Industry recognition for market intelligence excellence</li>
+                                        <li>- Delivered enterprise hardware rollouts across multiple regions</li>
+                                        <li>- Implemented cloud and productivity solutions for hybrid teams</li>
+                                        <li>- Built reliable vendor supply chains and delivery SLAs</li>
+                                        <li>- Improved uptime and lifecycle support for critical systems</li>
                                     </ul>
                                     <h2>Skills</h2>
                                     <div className="skills">
                                         <div className="skill">
-                                            <h6>Business</h6>
+                                            <h6>Distribution</h6>
                                             <div className="progress">
                                                 <div className="progress-bar"
                                                     role="progressbar" style={{ width: `85%` }}>
@@ -95,7 +95,7 @@ const TeamSinglePage = (props) => {
                                             </div>
                                         </div>
                                         <div className="skill">
-                                            <h6>Consulting</h6>
+                                            <h6>Cloud Platforms</h6>
                                             <div className="progress">
                                                 <div className="progress-bar"
                                                     role="progressbar" style={{ width: `95%` }}>
@@ -104,7 +104,7 @@ const TeamSinglePage = (props) => {
                                             </div>
                                         </div>
                                         <div className="skill">
-                                            <h6>Marketing</h6>
+                                            <h6>Infrastructure</h6>
                                             <div className="progress">
                                                 <div className="progress-bar"
                                                     role="progressbar" style={{ width: `92%` }}>
@@ -113,7 +113,7 @@ const TeamSinglePage = (props) => {
                                             </div>
                                         </div>
                                         <div className="skill">
-                                            <h6>Bankruptcy</h6>
+                                            <h6>Customer Success</h6>
                                             <div className="progress">
                                                 <div className="progress-bar"
                                                     role="progressbar" style={{ width: `95%` }}>

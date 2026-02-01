@@ -10,7 +10,7 @@ const BlogPageLeft =() => {
     return(
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'Latest News'} pagesub={'Blog'}/> 
+            <PageTitle pageTitle={'Insights'} pagesub={'Blog'}/>
             <BlogList blLeft={'order-lg-1'} blRight={'order-lg-2'}/>
             <Footer/>
             <Scrollbar/>

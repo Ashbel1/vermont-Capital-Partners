@@ -14,13 +14,13 @@ const BlogSection = () => {
                 <div className="row">
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-s2">
-                            <span>News</span>
-                            <h2>Latest News & <br/>Events</h2>
+                            <span>Insights</span>
+                            <h2>IT Distribution & <br/>Enterprise Updates</h2>
                         </div>
                     </div>
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-text">
-                            <p>Stay informed with the latest insights on market trends, data analytics innovations, and technology developments shaping business strategy across African markets. Explore our expert analysis and industry perspectives.</p>
+                            <p>Stay informed on hardware availability, enterprise platforms, cloud adoption, storage, and infrastructure best practices across African markets.</p>
                         </div>
                     </div>
                 </div>

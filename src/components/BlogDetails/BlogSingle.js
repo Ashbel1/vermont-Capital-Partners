@@ -29,55 +29,55 @@ const BlogSingle = (props) => {
                                     <img src={BlogDetails.blogSingleImg} alt="" />
                                 </div>
                                 <ul className="entry-meta">
-                                    <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">{BlogDetails.author}</Link></li>
-                                    <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">{BlogDetails.create_at}</Link></li>
-                                    <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">{BlogDetails.comment} Comments</Link></li>
+                                    <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">{BlogDetails.author}</Link></li>
+                                    <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">{BlogDetails.create_at}</Link></li>
+                                    <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">{BlogDetails.comment} Comments</Link></li>
                                 </ul>
                                 <h2>{BlogDetails.title}</h2>
-                                <p>The African business landscape presents unique opportunities for investors and enterprises seeking growth in emerging markets. Understanding local market dynamics, consumer behavior, and regulatory environments is crucial for successful market entry and expansion strategies.</p>
-                                <p>At Digiroc Technologies, we specialize in delivering comprehensive market intelligence that empowers our clients to make informed strategic decisions. Our research methodology combines quantitative data analysis with qualitative insights from industry experts and stakeholders across multiple African markets. This integrated approach ensures our clients receive actionable recommendations that drive measurable business outcomes and minimize investment risk.</p>
+                                <p>Reliable IT supply chains are critical for enterprise operations. Digiroc Technologies ensures authorized distribution and timely delivery of hardware, software, and infrastructure solutions across African markets.</p>
+                                <p>We coordinate vendor partnerships, procurement, logistics, and deployment planning so customers can scale with confidence and maintain strong security and compliance standards.</p>
                                 <blockquote>
-                                    Data-driven insights are the foundation of successful business strategy. Understanding market dynamics and consumer behavior enables enterprises to identify opportunities and optimize operations for sustainable growth.
-                                    <span className="quoter">- Digiroc Research Team</span>
+                                    Reliable distribution and enterprise platforms are the foundation of secure, productive operations.
+                                    <span className="quoter">- Digiroc Delivery Team</span>
                                 </blockquote>
-                                <h3>Strategic Intelligence for Investment and Growth Decisions</h3>
-                                <p>Our advanced analytics capabilities transform raw business data into strategic insights that inform critical investment decisions. From market validation and competitive analysis to operational optimization and portfolio management, Digiroc provides the intelligence infrastructure that venture capital and private equity firms rely on to maximize returns and minimize risk in African markets.</p>
+                                <h3>Distribution, Cloud, and Infrastructure That Scale</h3>
+                                <p>From laptops and servers to cloud platforms and storage, Digiroc delivers the technology foundation enterprises need to modernize and grow across Africa.</p>
                             </div>
 
                             <div className="tag-share">
                                 <div className="tag">
                                     Tags: &nbsp;
                                     <ul>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">Business</Link></li>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">Consutling</Link></li>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">Maket research</Link></li>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">Marketing</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">IT Distribution</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Cloud</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Storage</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Enterprise</Link></li>
                                     </ul>
                                 </div>
                                 <div className="share">
                                     Share: &nbsp;
                                     <ul>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-facebook"></i></Link></li>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-twitter-alt"></i></Link></li>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-linkedin"></i></Link></li>
-                                        <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-instagram"></i></Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-facebook"></i></Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-twitter-alt"></i></Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-linkedin"></i></Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-instagram"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div className="author-box">
                                 <div className="author-avatar">
-                                    <Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning" target="_blank"><img src={blog6} alt="" /></Link>
+                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa" target="_blank"><img src={blog6} alt="" /></Link>
                                 </div>
                                 <div className="author-content">
-                                    <Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning" className="author-name">Author: Jenny Watson</Link>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa" className="author-name">Author: Digiroc Technologies</Link>
+                                    <p>We share practical guidance on IT distribution, enterprise platforms, and infrastructure strategy for organizations across Africa.</p>
                                     <div className="socials">
                                         <ul className="social-link">
-                                            <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-facebook"></i></Link></li>
-                                            <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-twitter-alt"></i></Link></li>
-                                            <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-linkedin"></i></Link></li>
-                                            <li><Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><i className="ti-instagram"></i></Link></li>
+                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-facebook"></i></Link></li>
+                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-twitter-alt"></i></Link></li>
+                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-linkedin"></i></Link></li>
+                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-instagram"></i></Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -85,12 +85,12 @@ const BlogSingle = (props) => {
 
                             <div className="more-posts">
                                 <div className="previous-post">
-                                    <Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">
+                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">
                                         <span className="post-control-link"><i className="ti-arrow-circle-left"> </i>Previous post</span>
                                     </Link>
                                 </div>
                                 <div className="next-post">
-                                    <Link to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning">
+                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">
                                         <span className="post-control-link">Next post <i className="ti-arrow-circle-right"></i></span>
                                     </Link>
                                 </div>
@@ -112,11 +112,9 @@ const BlogSingle = (props) => {
                                                                 At 9.00am</span></h4>
                                                         </div>
                                                         <div className="comment-area">
-                                                            <p>I will give you a complete account of the system, and
-                                                                expound the actual teachings of the great explorer of
-                                                                the truth, </p>
+                                                            <p>Great service and timely delivery from Digiroc. The rollout was smooth and well supported.</p>
                                                             <div className="comments-reply">
-                                                                <Link className="comment-reply-link" to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><span>Reply</span></Link>
+                                                                <Link className="comment-reply-link" to="/blog-single/Building-resilient-it-supply-chains-in-africa"><span>Reply</span></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -135,11 +133,9 @@ const BlogSingle = (props) => {
                                                                         12,2022 At 9.00am</span></h4>
                                                                 </div>
                                                                 <div className="comment-area">
-                                                                    <p>I will give you a complete account of the system,
-                                                                        and expound the actual teachings of the great
-                                                                        explorer of the truth, </p>
+                                                                    <p>Professional team and reliable logistics. Our procurement was seamless.</p>
                                                                     <div className="comments-reply">
-                                                                        <Link className="comment-reply-link" to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><span>Reply</span></Link>
+                                                                        <Link className="comment-reply-link" to="/blog-single/Building-resilient-it-supply-chains-in-africa"><span>Reply</span></Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -158,11 +154,9 @@ const BlogSingle = (props) => {
                                                                                 12,2022 At 9.00am</span></h4>
                                                                         </div>
                                                                         <div className="comment-area">
-                                                                            <p>I will give you a complete account of the
-                                                                                system, and expound the actual teachings
-                                                                                of the great explorer of the truth, </p>
+                                                                            <p>Strong vendor access and clear communication throughout the deployment.</p>
                                                                             <div className="comments-reply">
-                                                                                <Link className="comment-reply-link" to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><span>Reply</span></Link>
+                                                                                <Link className="comment-reply-link" to="/blog-single/Building-resilient-it-supply-chains-in-africa"><span>Reply</span></Link>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -185,11 +179,9 @@ const BlogSingle = (props) => {
                                                                 At 9.00am</span></h4>
                                                         </div>
                                                         <div className="comment-area">
-                                                            <p>I will give you a complete account of the system, and
-                                                                expound the actual teachings of the great explorer of
-                                                                the truth, </p>
+                                                            <p>Excellent support and warranty handling on our enterprise equipment.</p>
                                                             <div className="comments-reply">
-                                                                <Link className="comment-reply-link" to="/blog-single/Consulting-Success-is-the-most-comprehensive-learning"><span>Reply</span></Link>
+                                                                <Link className="comment-reply-link" to="/blog-single/Building-resilient-it-supply-chains-in-africa"><span>Reply</span></Link>
                                                             </div>
                                                         </div>
                                                     </div>

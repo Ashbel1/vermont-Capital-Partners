@@ -16,12 +16,12 @@ const TeamSectionS2 = (props) => {
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-s2">
                             <span>Team members</span>
-                            <h2>See our passionate <br />team members</h2>
+                            <h2>Meet the Digiroc <br />delivery team</h2>
                         </div>
                     </div>
                     <div className="col col-lg-6 col-12">
                         <div className="title-text">
-                            <p>Our experienced team combines deep industry expertise in market research, data analytics, and IT distribution to deliver strategic solutions that drive measurable business outcomes for enterprises and investors across Africa.</p>
+                            <p>Our team delivers enterprise IT distribution, cloud enablement, and infrastructure services with reliable logistics and support.</p>
                         </div>
                     </div>
                 </div>

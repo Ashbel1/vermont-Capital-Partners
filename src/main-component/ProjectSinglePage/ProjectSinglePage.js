@@ -43,16 +43,16 @@ const ProjectSinglePage = (props) => {
                                 <div className="content-area">
                                     <div className="project-info">
                                         <ul>
-                                            <li><span>Client:</span> Themegeniuslab</li>
-                                            <li><span>Location:</span> Dreem city hold street</li>
+                                            <li><span>Client:</span> Enterprise Customer</li>
+                                            <li><span>Location:</span> Harare, Zimbabwe</li>
                                             <li><span>Status:</span> Completed</li>
-                                            <li><span>Duration:</span> 1 Month</li>
-                                            <li><span>Tags:</span> Consulting, Business</li>
+                                            <li><span>Duration:</span> 6 Weeks</li>
+                                            <li><span>Tags:</span> IT Distribution, Infrastructure</li>
                                         </ul>
                                     </div>
-                                    <h2>Enterprise Market Intelligence Project</h2>
-                                    <p>Digiroc executed a comprehensive market intelligence and analytics engagement for a leading technology distributor expanding into emerging African markets. The project combined deep market research, competitive analysis, and data-driven insights to support strategic market entry decisions and investment planning across multiple jurisdictions.</p>
-                                    <p>Our team delivered actionable intelligence on market sizing, competitive landscapes, regulatory environments, and consumer behavior patterns. The insights enabled our client to optimize their go-to-market strategy, identify high-potential partnerships, and make data-driven investment decisions that minimized risk while maximizing market opportunity.</p>
+                                    <h2>Enterprise Hardware Rollout</h2>
+                                    <p>Digiroc delivered a large‑scale hardware and software rollout for a multi‑site enterprise, covering laptops, desktops, servers, networking, and storage. The project included procurement, logistics coordination, and on‑site deployment support.</p>
+                                    <p>Our team ensured vendor‑authorized sourcing, compliance with enterprise standards, and a structured deployment plan that minimized downtime while improving performance and reliability.</p>
 
                                     <div className="challange-solution-section">
                                         <div className="theme-accordion-s1">
@@ -62,14 +62,14 @@ const ProjectSinglePage = (props) => {
                                                     aria-controls="panel1bh-content"
                                                     id="panel1bh-header"
                                                 >
-                                                    <Typography>The Challange Was</Typography>
+                                                    <Typography>The Challenge Was</Typography>
                                                 </AccordionSummary>
                                                 <AccordionDetails>
                                                     <Typography>
-                                                        <p>Our client needed comprehensive market intelligence across five African markets to support a major expansion initiative. They required deep understanding of competitive dynamics, regulatory requirements, consumer preferences, and distribution infrastructure in each target market to inform strategic investment decisions.</p>
+                                                        <p>The client needed a fast, secure rollout across multiple sites with strict timelines, procurement controls, and warranty coverage.</p>
                                                         <ul>
-                                                            <li><i className="ti-check"></i>Multi-market competitive analysis required</li>
-                                                            <li><i className="ti-check"></i>Complex regulatory landscape assessment needed</li>
+                                                            <li><i className="ti-check"></i>Coordinating multi‑site delivery and installation</li>
+                                                            <li><i className="ti-check"></i>Ensuring compliance, licensing, and asset tracking</li>
                                                         </ul>
                                                     </Typography>
                                                 </AccordionDetails>
@@ -80,14 +80,14 @@ const ProjectSinglePage = (props) => {
                                                     aria-controls="panel2bh-content"
                                                     id="panel2bh-header"
                                                 >
-                                                    <Typography>Our Solutions Was</Typography>
+                                                    <Typography>Our Solution Was</Typography>
                                                 </AccordionSummary>
                                                 <AccordionDetails>
                                                     <Typography>
-                                                    <p>Digiroc deployed a comprehensive research methodology combining primary and secondary research, stakeholder interviews, and advanced analytics. We delivered detailed market reports, competitive intelligence dashboards, and strategic recommendations that enabled confident market entry and investment decisions.</p>
+                                                    <p>Digiroc provided vendor‑authorized sourcing, staged logistics, and a deployment team to execute the rollout with minimal disruption.</p>
                                                             <ul>
-                                                                <li><i className="ti-check"></i>Data-driven market opportunity assessment delivered</li>
-                                                                <li><i className="ti-check"></i>Actionable strategic recommendations provided</li>
+                                                                <li><i className="ti-check"></i>Hardware, software, and licensing delivered on schedule</li>
+                                                                <li><i className="ti-check"></i>Post‑deployment support and warranty management</li>
                                                             </ul>
                                                     </Typography>
                                                 </AccordionDetails>
@@ -96,21 +96,21 @@ const ProjectSinglePage = (props) => {
                                     </div>
                                     <div className="prev-next-project">
                                         <div>
-                                            <Link onClick={ClickHandler} to={'/project-single/Investment-planning'}>
+                                            <Link onClick={ClickHandler} to={'/project-single/Server-Storage-Deployment'}>
                                                 <div className="icon">
                                                     <i className="fi flaticon-back"></i>
                                                 </div>
                                                 <span>Previous project</span>
-                                                <h5>Busines consulting Project</h5>
+                                                <h5>Server & Storage Deployment</h5>
                                             </Link>
                                         </div>
                                         <div>
-                                            <Link onClick={ClickHandler} to={'/project-single/Financial-Advices'}>
+                                            <Link onClick={ClickHandler} to={'/project-single/Microsoft-365-Enablement'}>
                                                 <div className="icon">
                                                     <i className="fi flaticon-next"></i>
                                                 </div>
                                                 <span>Next project</span>
-                                                <h5>Busines consulting Project</h5>
+                                                <h5>Microsoft 365 Enablement</h5>
                                             </Link>
                                         </div>
                                     </div>

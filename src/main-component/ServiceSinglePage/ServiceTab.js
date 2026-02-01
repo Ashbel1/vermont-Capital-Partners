@@ -19,7 +19,7 @@ const ServiceTab = (props) => {
                             className={classnames({ active: activeTab === '1' })}
                             onClick={() => { toggle('1'); }}
                         >
-                            Research Methodology
+                            Solution Design
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -28,7 +28,7 @@ const ServiceTab = (props) => {
                             onClick={() => { toggle('2'); }}
                         >
 
-                            Market Intelligence
+                            Procurement & Licensing
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -37,7 +37,7 @@ const ServiceTab = (props) => {
                             onClick={() => { toggle('3'); }}
                         >
 
-                            Specializations
+                            Deployment & Support
                         </NavLink>
                     </NavItem>
                 </Nav>
@@ -47,15 +47,15 @@ const ServiceTab = (props) => {
                 <TabPane tabId="1">
                     <Row>
                         <Col sm="12">
-                            <p>Our research methodology combines quantitative and qualitative approaches to deliver comprehensive market intelligence. We leverage primary research through stakeholder interviews and surveys, complemented by secondary research from industry databases and proprietary sources. Advanced analytics and data visualization tools transform raw data into actionable insights that support strategic decision-making.</p>
+                            <p>We translate your requirements into a practical enterprise architecture. This includes hardware sizing, network design, cloud readiness, security controls, and deployment timelines.</p>
                         </Col>
                     </Row>
                 </TabPane>
                 <TabPane tabId="2">
-                    <p>Digiroc delivers market intelligence that goes beyond surface-level data. We provide deep competitive analysis, consumer behavior insights, regulatory landscape assessment, and emerging trend identification. Our intelligence supports investment due diligence, market entry strategies, competitive positioning, and portfolio optimization for PE/VC firms and enterprises.</p>
+                    <p>We source vendor-authorized hardware and software, manage licensing for Microsoft 365, Azure, and AWS, and ensure compliance for enterprise procurement.</p>
                 </TabPane>
                 <TabPane tabId="3">
-                    <p>Our specialized research capabilities cover multiple industries including technology, telecommunications, financial services, consumer goods, and healthcare. We have deep expertise in African market dynamics, emerging market assessment, cross-border commerce, digital transformation trends, and regulatory environments. Each research engagement is customized to address specific client objectives and strategic questions.</p>
+                    <p>We deliver end-to-end deployment and lifecycle support, including installation, migration, monitoring, and warranty management to keep operations running smoothly.</p>
                 </TabPane>
             </TabContent>
         </div>

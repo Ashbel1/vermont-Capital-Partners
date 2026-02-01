@@ -111,43 +111,33 @@ const menus = [
         submenu: [
             {
                 id: 61,
-                title: 'Services',
+                title: 'All Services',
                 link: '/services',
             },
             {
                 id: 62,
-                title: 'Service Style 2',
+                title: 'Solutions Grid',
                 link: '/services-s2'
             },
             {
                 id: 625,
-                title: 'Service Style 3',
+                title: 'Service Highlights',
                 link: '/service-s3'
             },
             {
                 id: 63,
-                title: 'Market Research',
-                link: '/service-single/Market-Research'
+                title: 'IT Distribution & Supply Chain',
+                link: '/service-single/IT-Distribution'
             },
             {
                 id: 64,
-                title: 'Corporate Finance',
-                link: '/service-single/Corporate-Finance'
+                title: 'Enterprise Cloud & Productivity',
+                link: '/service-single/Enterprise-Cloud'
             },
             {
                 id: 64,
-                title: 'Advanced Analytics',
-                link: '/service-single/Advanced-Analytics'
-            },
-            {
-                id: 64,
-                title: 'Change Management',
-                link: '/service-single/Change-Management'
-            },
-            {
-                id: 64,
-                title: 'Strategy Marketing',
-                link: '/service-single/Strategy-Marketing'
+                title: 'Data Storage & Infrastructure',
+                link: '/service-single/Data-Storage-Infrastructure'
             },
         ]
     },
@@ -158,18 +148,18 @@ const menus = [
         submenu: [
             {
                 id: 71,
-                title: 'Projects',
+                title: 'Deployments',
                 link: '/projects'
             },
             {
                 id: 72,
-                title: 'Projects style 2',
+                title: 'Deployment Grid',
                 link: '/projects-s2'
             },
             {
                 id: 74,
-                title: 'Project single',
-                link: '/project-single/Market-Research'
+                title: 'Featured Deployment',
+                link: '/project-single/Enterprise-Hardware-Rollout'
             },
         ]
     },
@@ -181,33 +171,33 @@ const menus = [
         submenu: [
             {
                 id: 51,
-                title: 'Blog',
+                title: 'Insights',
                 link: '/blog'
             },
             {
                 id: 52,
-                title: 'Blog Left sidebar',
+                title: 'Insights (Left)',
                 link: '/blog-left-sidebar'
             },
             {
                 id: 53,
-                title: 'Blog full width',
+                title: 'Insights (Full)',
                 link: '/blog-fullwidth'
             },
             {
                 id: 54,
-                title: 'Blog single',
-                link: '/blog-single/Consulting-Success-is-the-most-comprehensive-learning'
+                title: 'Featured Insight',
+                link: '/blog-single/Building-resilient-it-supply-chains-in-africa'
             },
             {
                 id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/Consulting-Success-is-the-most-comprehensive-learning'
+                title: 'Featured Insight (Left)',
+                link: '/blog-single-left-sidebar/Building-resilient-it-supply-chains-in-africa'
             },
             {
                 id: 56,
-                title: 'Blog single full width',
-                link: '/blog-single-fullwidth/Consulting-Success-is-the-most-comprehensive-learning'
+                title: 'Featured Insight (Full)',
+                link: '/blog-single-fullwidth/Building-resilient-it-supply-chains-in-africa'
             },
         ]
     },

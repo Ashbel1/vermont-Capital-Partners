@@ -30,7 +30,7 @@ const BlogSidebar = (props) => {
                     <div className="img-holder">
                         <img src={about} alt="" />
                     </div>
-                    <p>Digiroc Technologies delivers strategic market intelligence and enterprise IT solutions across African markets.</p>
+                    <p>Digiroc Technologies delivers enterprise IT distribution, cloud enablement, and infrastructure services across Africa.</p>
                     <Link onClick={ClickHandler} to="/about">More about us</Link>
                 </div>
                 <div className="widget category-widget">
@@ -60,15 +60,15 @@ const BlogSidebar = (props) => {
                 <div className="widget tag-widget">
                     <h3>Tags</h3>
                     <ul>
-                        <li><Link onClick={ClickHandler} to="/blog">Consulting</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Planning</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Marketing</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Strategy</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Finance</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Solution</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Corporate</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Idea</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Market Reserch</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">IT Distribution</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Cloud</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Microsoft 365</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Azure</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">AWS</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Storage</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Networking</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Security</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Enterprise</Link></li>
                     </ul>
                 </div>
             </div>

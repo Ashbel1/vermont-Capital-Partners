@@ -27,10 +27,10 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Strategic Market Intelligence for Africa</h2>
+                                <h2>Enterprise IT Distribution Across Africa</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Empowering investment decisions with comprehensive market research and data-driven insights across African markets.</p>
+                                <p>Reliable supply of hardware and software with vendor-authorized logistics and lifecycle support.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
@@ -43,10 +43,10 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Enterprise IT Distribution Solutions</h2>
+                                <h2>Cloud & Enterprise Platforms</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Connecting leading global technology vendors with enterprise customers across African markets through reliable logistics and value-added services.</p>
+                                <p>Azure, AWS, Microsoft 365, and infrastructure solutions delivered with secure deployment.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
@@ -59,10 +59,10 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero3})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Advanced Analytics & Business Intelligence</h2>
+                                <h2>Storage, Security & Infrastructure</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Transform your business data into actionable insights that optimize operations, reduce costs, and drive sustainable growth.</p>
+                                <p>Data protection, backup, networking, and security services built for enterprise resilience.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">

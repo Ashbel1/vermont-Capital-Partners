@@ -6,38 +6,38 @@ const Skill = (props) => {
             <div className="content-area">
                 <div className="left-col"></div>
                 <div className="right-col">
-                    <h2>Why Digiroc is the best choice for <br />your next project!</h2>
-                    <p>Digiroc Technologies combines deep market expertise with advanced analytics and technology distribution capabilities to deliver comprehensive solutions across emerging African markets. Our proven track record in market intelligence, data science, and IT infrastructure enables enterprises and investors to make confident strategic decisions.</p>
+                    <h2>Why Digiroc is the best choice for <br />enterprise IT delivery</h2>
+                    <p>Digiroc Technologies combines vendor partnerships, enterprise architecture expertise, and reliable logistics to deliver hardware, software, cloud, storage, and infrastructure solutions across Africa.</p>
                     <ul>
-                        <li><i className="ti-check"></i>Comprehensive market research and competitive intelligence</li>
-                        <li><i className="ti-check"></i>Advanced analytics and predictive modeling capabilities</li>
-                        <li><i className="ti-check"></i>Enterprise IT distribution and supply chain optimization</li>
-                        <li><i className="ti-check"></i>Deep expertise in African market dynamics and regulations</li>
+                        <li><i className="ti-check"></i>Authorized hardware and software distribution</li>
+                        <li><i className="ti-check"></i>Cloud enablement for Azure, AWS, and Microsoft 365</li>
+                        <li><i className="ti-check"></i>Storage, backup, and infrastructure modernization</li>
+                        <li><i className="ti-check"></i>Deployment, warranty, and lifecycle support</li>
                     </ul>
                     <div className="skills">
                         <div className="skill">
-                            <h6>Market Research</h6>
+                            <h6>Distribution</h6>
                             <div className="progress">
                                 <div className="progress-bar" style={{ width: "95%" }}></div>
                                 <span className="progress-value">95%</span>
                             </div>
                         </div>
                         <div className="skill">
-                            <h6>Data Analytics</h6>
+                            <h6>Cloud Platforms</h6>
                             <div className="progress">
                                 <div className="progress-bar" style={{ width: "92%" }}></div>
                                 <span className="progress-value">92%</span>
                             </div>
                         </div>
                         <div className="skill">
-                            <h6>IT Distribution</h6>
+                            <h6>Infrastructure</h6>
                             <div className="progress">
                                 <div className="progress-bar" style={{ width: "90%" }}></div>
                                 <span className="progress-value">90%</span>
                             </div>
                         </div>
                         <div className="skill">
-                            <h6>Strategic Consulting</h6>
+                            <h6>Support & Lifecycle</h6>
                             <div className="progress">
                                 <div className="progress-bar" style={{ width: "88%" }}></div>
                                 <span className="progress-value">88%</span>

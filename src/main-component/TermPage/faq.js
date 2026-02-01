@@ -34,11 +34,11 @@ const FAQ = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography className={classes.heading}>Market research on our global panel with support from our experts.</Typography>
+                                <Typography className={classes.heading}>What products does Digiroc distribute?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                   Digiroc provides comprehensive market research services across African markets, combining primary and secondary research methodologies. Our expert team delivers actionable insights through stakeholder interviews, industry analysis, competitive intelligence, and consumer behavior studies tailored to your specific business objectives.
+                                   We distribute laptops, desktops, servers, networking, storage, accessories, and enterprise software through authorized vendor channels across Africa.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -48,11 +48,11 @@ const FAQ = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography className={classes.heading}>How can data analytics help my business grow?</Typography>
+                                <Typography className={classes.heading}>Do you support cloud and Microsoft licensing?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Our advanced analytics services transform raw business data into strategic insights. We help identify growth opportunities, optimize operations, forecast market trends, and make data-driven decisions that reduce risk and increase profitability across your organization.
+                                    Yes. We provide Azure, AWS, and Microsoft 365 licensing and implementation with governance, security, and compliance guidance.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -67,7 +67,7 @@ const FAQ = (props) => {
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Digiroc provides end-to-end IT distribution solutions including vendor partnerships, supply chain management, technical support, and value-added services. We connect leading global technology vendors with enterprise customers across Africa, ensuring reliable delivery and competitive pricing.
+                                    We handle vendor sourcing, procurement, logistics, delivery, warranty management, and lifecycle support for enterprise customers.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -77,11 +77,11 @@ const FAQ = (props) => {
                                 aria-controls="panel4bh-content"
                                 id="panel4bh-header"
                             >
-                                <Typography className={classes.heading}>How does Digiroc support PE/VC investment decisions?</Typography>
+                                <Typography className={classes.heading}>How does Digiroc support enterprise deployments?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We provide comprehensive investment due diligence, market validation, competitive analysis, and portfolio optimization services for private equity and venture capital firms. Our research delivers the strategic intelligence needed to evaluate opportunities, assess risks, and maximize returns on investments in African markets.
+                                    We provide architecture design, deployment teams, project coordination, and post‑deployment support to keep enterprise environments secure and reliable.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>

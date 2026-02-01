@@ -11,22 +11,22 @@ const Features = (props) => {
                                 <div className="icon">
                                     <i className="fi flaticon-sheriff"></i>
                                 </div>
-                                <h3>IT Distribution</h3>
-                                <p>Enterprise technology distribution connecting global vendors with African markets through reliable logistics and value-added services</p>
+                                <h3>Hardware & Software Distribution</h3>
+                                <p>Reliable supply of laptops, desktops, servers, accessories, networking, and enterprise software across Africa.</p>
                             </div>
                             <div className="grid">
                                 <div className="icon">
                                     <i className="fi flaticon-diamond"></i>
                                 </div>
-                                <h3>Market Research</h3>
-                                <p>Comprehensive market intelligence and strategic insights tailored to African markets for investment and expansion decisions</p>
+                                <h3>Enterprise Platforms</h3>
+                                <p>Azure, AWS, Microsoft 365, virtualization, and licensing tailored for enterprise-scale deployments.</p>
                             </div>
                             <div className="grid">
                                 <div className="icon">
                                     <i className="fi flaticon-idea"></i>
                                 </div>
-                                <h3>Data Analytics</h3>
-                                <p>Advanced analytics transforming business data into actionable insights for operational optimization and growth</p>
+                                <h3>Storage, Security & Support</h3>
+                                <p>Storage, backup, security, and lifecycle support to keep enterprise environments secure and resilient.</p>
                             </div>
                         </div>
                     </div>

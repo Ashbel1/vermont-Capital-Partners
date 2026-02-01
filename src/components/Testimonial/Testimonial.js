@@ -11,8 +11,8 @@ const Testimonial = (prop) => {
                 <div className="row justify-content-center">
                     <div className="col col-xl-8 col-lg-10">
                         <div className="testimonials-area">
-                            <p>Digiroc's market intelligence and analytics capabilities have been instrumental in our investment decisions across emerging African markets. Their team delivers actionable insights that directly impact our portfolio performance and risk management strategies.</p>
-                            <span className="quoter">Thomas Calvin</span>
+                            <p>Digiroc keeps our enterprise infrastructure running with dependable hardware supply, licensing, and rollout support. Their delivery and after‑sales support are exceptional.</p>
+                            <span className="quoter">IT Operations Lead</span>
                         </div>
                     </div>
                 </div>

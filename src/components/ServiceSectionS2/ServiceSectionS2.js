@@ -15,8 +15,8 @@ const ServiceSectionS2 = (props) => {
                     <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section-title-s3">
                             <span>Services</span>
-                            <h2>Best services</h2>
-                            <p>Digiroc Technologies delivers strategic market intelligence, advanced analytics, and enterprise IT solutions designed to drive business growth and optimize operational efficiency across African markets.</p>
+                            <h2>Enterprise IT services</h2>
+                            <p>Digiroc Technologies delivers hardware and software distribution, cloud enablement, storage, and infrastructure services tailored for enterprise operations across Africa.</p>
                         </div>
                     </div>
                 </div>

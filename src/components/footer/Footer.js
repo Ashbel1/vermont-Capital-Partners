@@ -21,7 +21,7 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <img src={Logo} alt="" />
                                 </div>
-                                <p>Digiroc Technologies delivers strategic market intelligence, advanced analytics, and enterprise IT distribution across Africa, empowering businesses with data-driven insights and optimized technology solutions.</p>
+                                <p>Digiroc Technologies delivers enterprise IT distribution and solutions across Africa, supplying hardware, software, cloud platforms, storage, and infrastructure with reliable logistics and support.</p>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">

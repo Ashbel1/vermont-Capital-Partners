@@ -10,10 +10,10 @@ const Hero3 = () => {
                 <div className="hero-inner">
                     <div className="container">
                         <div data-swiper-parallax="300" className="slide-title">
-                            <h2>Leading Technology Intelligence Partner</h2>
+                            <h2>Leading Enterprise IT Distribution Partner</h2>
                         </div>
                         <div data-swiper-parallax="400" className="slide-text">
-                            <p>Empowering growth through market research, advanced analytics, and enterprise IT distribution across Africa.</p>
+                            <p>Empowering growth through hardware and software distribution, cloud enablement, and infrastructure services across Africa.</p>
                         </div>
                         <div className="clearfix"></div>
                         <div data-swiper-parallax="500" className="slide-btns">

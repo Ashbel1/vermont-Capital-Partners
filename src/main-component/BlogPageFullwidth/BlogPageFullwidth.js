@@ -10,7 +10,7 @@ const BlogPageFullwidth = () => {
     return (
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'Latest News'} pagesub={'Blog'} />
+            <PageTitle pageTitle={'Insights'} pagesub={'Blog'} />
             <BlogList blLeft={'d-none'} blRight={'col-lg-10 offset-lg-1'} />
             <Footer />
             <Scrollbar />

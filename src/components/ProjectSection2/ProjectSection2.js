@@ -15,8 +15,8 @@ const ProjectSection2 = (props) => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="section-title-s3">
                             <span>Projects</span>
-                            <h2>Recent Projects</h2>
-                            <p>Explore our portfolio of successful engagements across market research, data analytics, and IT distribution. Each project demonstrates our commitment to delivering measurable results and strategic value for our clients.</p>
+                            <h2>Recent Deployments</h2>
+                            <p>Explore recent enterprise rollouts across hardware distribution, cloud enablement, storage, networking, and infrastructure modernization.</p>
                         </div>
                     </div>
                 </div>

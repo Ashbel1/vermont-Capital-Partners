@@ -20,9 +20,9 @@ const TeamSection = (props) => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="cta-content">
                             <div className="video-holder">
-                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See more about Digiroc</span></button>
+                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See how Digiroc delivers</span></button>
                             </div>
-                            <h3>We deliver strategic intelligence and technology solutions across emerging African markets</h3>
+                            <h3>We deliver enterprise IT distribution, cloud enablement, and infrastructure services across Africa</h3>
                         </div>
                     </div>
                 </div>
@@ -31,12 +31,12 @@ const TeamSection = (props) => {
                         <div className="col col-lg-6 col-12">
                             <div className="section-title-s4">
                                 <span>Team members</span>
-                                <h2>See our passionate <br />team members</h2>
+                                <h2>Meet the Digiroc <br />delivery team</h2>
                             </div>
                         </div>
                         <div className="col col-lg-6 col-12">
                             <div className="title-text">
-                                <p>Our experienced team combines deep industry expertise in market research, data analytics, and IT distribution to deliver strategic solutions that drive measurable business outcomes for enterprises and investors across Africa.</p>
+                                <p>Our team brings hands-on expertise in IT distribution, enterprise platforms, storage, networking, and deployment support to keep your organization running reliably.</p>
                             </div>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ const ServiceSinglePage = (props) => {
     return (
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={ServiceDetails.sTitle} pagesub={'Project'} />
+            <PageTitle pageTitle={ServiceDetails.sTitle} pagesub={'Services'} />
 
             <section className="service-single-section section-padding">
                 <div className="container">
@@ -38,22 +38,22 @@ const ServiceSinglePage = (props) => {
                                 <div className="service-pic">
                                     <img src={ServiceDetails.sImg} alt="" />
                                 </div>
-                                <h2>Market Research service</h2>
-                                <p>Digiroc's market research services deliver comprehensive intelligence that drives strategic decision-making for enterprises, investors, and technology vendors. We combine quantitative analysis with qualitative insights to provide deep understanding of market dynamics, competitive landscapes, consumer behavior, and emerging opportunities across African markets.</p>
-                                <p>Our research methodologies are designed specifically for the unique characteristics of emerging markets, ensuring accuracy and actionable insights that support investment decisions, market entry strategies, and portfolio optimization for private equity and venture capital firms.</p>
+                                <h2>{ServiceDetails.sTitle}</h2>
+                                <p>Digiroc delivers enterprise-grade IT distribution and solutions tailored to your operational needs. We provide reliable access to hardware, software, and cloud platforms while ensuring secure deployment, compliance, and ongoing support.</p>
+                                <p>From procurement to rollout, we coordinate vendor partnerships, licensing, logistics, and implementation so your teams can operate without disruption.</p>
 
-                                <h3>Comprehensive Research Capabilities</h3>
-                                <p>Our market research encompasses competitive analysis, consumer insights, industry trends, market sizing, and investment due diligence to support strategic business decisions and minimize investment risks.</p>
+                                <h3>Enterprise Delivery Capabilities</h3>
+                                <p>We cover sourcing, logistics, architecture, deployment, and lifecycle services to keep your technology stack secure, scalable, and available.</p>
                                 <div className="service-features">
                                     <ul>
-                                        <li><i className="ti-check-box"></i>Market opportunity analysis</li>
-                                        <li><i className="ti-check-box"></i>Competitive intelligence</li>
-                                        <li><i className="ti-check-box"></i>Consumer behavior insights</li>
+                                        <li><i className="ti-check-box"></i>Vendor sourcing & procurement</li>
+                                        <li><i className="ti-check-box"></i>Enterprise licensing & compliance</li>
+                                        <li><i className="ti-check-box"></i>Secure deployment & integration</li>
                                     </ul>
                                     <ul>
-                                        <li><i className="ti-check-box"></i>Investment due diligence</li>
-                                        <li><i className="ti-check-box"></i>Industry trend forecasting</li>
-                                        <li><i className="ti-check-box"></i>Market entry strategies</li>
+                                        <li><i className="ti-check-box"></i>Storage, backup & DR</li>
+                                        <li><i className="ti-check-box"></i>Network & infrastructure services</li>
+                                        <li><i className="ti-check-box"></i>Lifecycle support & warranty</li>
                                     </ul>
                                 </div>
 
@@ -91,10 +91,10 @@ const ServiceSinglePage = (props) => {
                                 <div className="widget service-features-widget">
                                     <h3>Our Service Features</h3>
                                     <ol>
-                                        <li>Quality service guarantee</li>
-                                        <li>100% safe work</li>
-                                        <li>Money back guarantee</li>
-                                        <li>100% satisfied client</li>
+                                        <li>Vendor-authorized sourcing</li>
+                                        <li>Secure enterprise deployment</li>
+                                        <li>Reliable logistics & delivery</li>
+                                        <li>Lifecycle support & warranty</li>
                                     </ol>
                                 </div>
                                 <div className="widget download-widget">
@@ -105,7 +105,7 @@ const ServiceSinglePage = (props) => {
                                 <div className="widget contact-widget">
                                     <div>
                                         <h4>Need help?</h4>
-                                        <p>Contact our team to discuss your market research needs and how we can support your strategic objectives.</p>
+                                        <p>Contact our team to discuss hardware, software, cloud, or infrastructure requirements.</p>
                                         <p>Phone: +263718911411</p>
                                         <p>Email: info@digiroc.co.zw</p>
                                         <Link onClick={ClickHandler} to='/contact'>Contact With Us</Link>

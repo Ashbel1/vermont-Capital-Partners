@@ -25,16 +25,16 @@ const About3 = (props) => {
                         <div className="col-xl-5 col-lg-6 col-md-12 col-12">
                             <div className="wpo-about-text">
                                 <h4>Welcome To Digiroc</h4>
-                                <h2>We are a trusted technology intelligence partner.</h2>
-                                <p>Digiroc Technologies specializes in market research, advanced analytics, and IT distribution across Africa. We empower enterprises and investors with data-driven insights and optimized technology solutions that drive growth and competitive advantage.</p>
+                                <h2>Your trusted enterprise IT distribution partner.</h2>
+                                <p>Digiroc Technologies provides hardware and software distribution, cloud enablement, and infrastructure services across Africa. We help enterprises deploy reliable, secure, and scalable technology.</p>
                                 <div className="text-sub-wrap">
                                     <div className="text-sub-item">
                                         <i className="fi flaticon-tax"></i>
-                                        <h5>Perfect solution of business
-                                            and financial planning.</h5>
+                                        <h5>End‑to‑end enterprise supply
+                                            and deployment support.</h5>
                                     </div>
                                 </div>
-                                <Link onClick={ClickHandler} className="theme-btn" to="/service">Our Services</Link>
+                                <Link onClick={ClickHandler} className="theme-btn" to="/services">Our Services</Link>
                             </div>
                         </div>
                     </div>

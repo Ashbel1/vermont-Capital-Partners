@@ -26,14 +26,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Enterprise IT Distribution & Logistics</h2>
+                                <h2>Enterprise IT Distribution & Supply</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Optimized supply chain solutions connecting technology vendors with enterprise customers across Africa.</p>
+                                <p>Authorized distribution of laptops, desktops, servers, networking, storage, and software across Africa.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Explore Opportunities<span></span></Link>
+                                <Link to="/contact" className="theme-btn">Explore Solutions<span></span></Link>
                             </div>
                         </div>
                     </div>
@@ -42,14 +42,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Transform Data Into Strategic Intelligence</h2>
+                                <h2>Enterprise Solutions & Cloud Enablement</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Digiroc Technologies delivers actionable market insights and enterprise IT solutions that drive profitable growth and competitive advantage.</p>
+                                <p>Azure, AWS, Microsoft 365, security, and data storage solutions delivered with expert integration and support.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Explore Our Solutions<span></span></Link>
+                                <Link to="/contact" className="theme-btn">Talk to an Expert<span></span></Link>
                             </div>
                         </div>
                     </div>
@@ -59,10 +59,10 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero3})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Data-Driven Market Research & Analytics</h2>
+                                <h2>Data & Infrastructure Intelligence</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Deep market intelligence and predictive analytics that unlock growth opportunities and mitigate investment risks.</p>
+                                <p>Performance insights that optimize procurement, inventory, and enterprise IT operations.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
