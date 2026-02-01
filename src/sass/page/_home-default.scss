@@ -420,7 +420,7 @@
 
 		&:before {
 			content: "";
-			background: transparentize(#1d1d1d, 0.1);
+			background: transparentize($theme-primary-color, 0.1);
 			width: calc(100% + 2px);
 			height: 100%;
 			position: absolute;
@@ -636,10 +636,10 @@
 
 		&:before {
 			content: "";
-			@include overlay(transparentize(#1d1d1d, 0.2));
+			@include overlay(transparentize($theme-primary-color, 0.2));
 
 			@include media-query(767px) {
-				@include overlay (#1d1d1d);
+				@include overlay ($theme-primary-color);
 			}
 		}
 	}

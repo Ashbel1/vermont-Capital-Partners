@@ -19,7 +19,7 @@
 	}
 
 	.navigation {
-		background-color: $white;
+		background-color: $theme-primary-color;
 		margin-bottom: 0;
 		border: 0;
 		@include rounded-border(0);
@@ -43,7 +43,7 @@
 		> ul li a:focus,
 		> ul > li .sub-menu a:hover {
 			text-decoration: none;
-			color: $theme-primary-color;
+			color: $white;
 		}
 
 		> ul > .menu-item-has-children > a {
@@ -69,7 +69,7 @@
 			> ul > li > a {
 				font-size: 16px;
 				font-size: calc-rem-value(16);
-				color: $heading-color;
+				color: rgba($white, 0.92);
 				padding: 37px 20px;
 				display: block;
 			}
@@ -325,26 +325,26 @@
 		}
 
 		#navbar {
-			background: $white;
+			background: $theme-primary-color;
 			display: block !important;
 			width: 280px;
 			height: 100% !important;
 			margin: 0;
 			padding: 0;
-			border-left: 1px solid lighten($black, 80%);
-			border-right: 1px solid lighten($black, 80%);
+			border-left: 1px solid rgba($white, 0.1);
+			border-right: 1px solid rgba($white, 0.1);
 			position: fixed;
 			right: -330px;
 			top: 0;
 			z-index: 100;
 
 			ul a {
-				color: $black;
+				color: rgba($white, 0.9);
 			}
 
 			ul a:hover,
 			ul li.current a {
-				color: $theme-primary-color;
+				color: $white;
 			}
 
 			.navbar-nav {
@@ -353,10 +353,10 @@
 			}
 
 			.close-navbar {
-				background-color: $white;
+				background-color: $theme-primary-color;
 				width: 40px;
 				height: 40px;
-				color: $black;
+				color: $white;
 				border: 0;
 				outline: none;
 				position: absolute;
@@ -371,7 +371,7 @@
 			}
 
 			> ul > li {
-				border-bottom: 1px solid lighten($black, 95%);
+				border-bottom: 1px solid rgba($white, 0.1);
 			}
 
 			> ul > li > a {
@@ -469,14 +469,14 @@
 		}
 
 		.navigation {
-			background: transparent;
+			background: $theme-primary-color;
 		}
 
 		#navbar {
 			justify-content: center;
 
 			> ul > li a {
-				color: $white;
+				color: rgba($white, 0.92);
 			}
 
 			> ul {
@@ -497,7 +497,7 @@
 
 	@include media-query(991px) {
 		.navigation {
-			background: #313131;
+			background: $theme-primary-color;
 			padding: 17px 0;
 		}
 	}
@@ -802,6 +802,8 @@
 	}
 
 	.topbar {
+		background: $theme-primary-color;
+		color: rgba($white, 0.85);
 		padding: 18px 0;
 		@include media-query(991px) {
 			padding: 12px 15px;
@@ -825,11 +827,11 @@
 
 		a {
 			text-decoration: underline;
-			color: $theme-primary-color;
+			color: rgba($white, 0.9);
 		}
 
 		a:hover {
-			color: darken($theme-primary-color, 10%);
+			color: $white;
 		}
 
 		ul {
@@ -883,11 +885,11 @@
 			a {
 				font-size: 14px;
 				font-size: calc-rem-value(14);
-				color: $text-color;
+				color: rgba($white, 0.85);
 			}
 
 			a:hover {
-				color: $theme-primary-color;
+				color: $white;
 			}
 		}
 	}
@@ -904,17 +906,17 @@
 	@include widther(992px) {
 		#navbar > ul > li a,
 		.cart-search-contact .fi {
-			color: $heading-color;
+			color: rgba($white, 0.92);
 		}
 	}
 
 	@include media-query(991px) {
 		.navigation {
-			background: $white;
+			background: $theme-primary-color;
 		}
 
 		.cart-search-contact .fi {
-			color: $heading-color;
+			color: rgba($white, 0.92);
 		}
 	}
 }
@@ -931,7 +933,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: $white;
+	background: $theme-primary-color;
 	border: none;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
 	-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
@@ -940,22 +942,22 @@
 
 .fixed-navbar.active .header-style-1,
 .fixed-navbar.active .header-style-2{
-	background: $white;
+	background: $theme-primary-color;
 
 	.navigation {
 		border: 0;
-		background: $white;
+		background: $theme-primary-color;
 	}
 }
 
 .fixed-navbar.active .header-style-1{
 	.navigation {
-		background: #313131;
+		background: $theme-primary-color;
 	}
 }
 
 .fixed-navbar.active .header-style-3{
 	.navigation {
-		background: $white;
+		background: $theme-primary-color;
 	}
 }

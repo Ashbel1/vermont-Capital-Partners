@@ -152,7 +152,7 @@
 
 		&:before {
 			content: "";
-			background: transparentize(#1d1d1d, 0.1);
+			background: transparentize($theme-primary-color, 0.1);
 			width: calc(100% + 2px);
 			height: 100%;
 			position: absolute;

@@ -197,7 +197,7 @@ img {
 
 /*** back to top **/
 .back-to-top {
-    background-color: #1d1d1d;
+    background-color: $theme-primary-color;
     width: 45px;
     height: 45px;
     line-height: 45px;
@@ -216,7 +216,7 @@ img {
     }
 
     &:hover {
-        background-color: $theme-primary-color;
+        background-color: darken($theme-primary-color, 6%);
     }
 }
 

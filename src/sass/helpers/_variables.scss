@@ -19,6 +19,6 @@ $digiroc-blue: #001C4A;
 
 $theme-primary-color: $digiroc-blue;
 $body-bg-color: $white;
-$section-bg-color: #edecec;
-$text-color: $mid-gray;
-$heading-color: $dark-gray;
+$section-bg-color: lighten($digiroc-blue, 92%);
+$text-color: #3f4a60;
+$heading-color: $digiroc-blue;
