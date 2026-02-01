@@ -22,7 +22,22 @@ const Hero = () => {
                 speed={1800}
                 parallax={true}
                 navigation
-            >
+            >     <SwiperSlide>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
+                        <div className="container">
+                            <div className="slide-title">
+                                <h2>Enterprise IT Distribution & Logistics</h2>
+                            </div>
+                            <div className="slide-text">
+                                <p>Optimized supply chain solutions connecting technology vendors with enterprise customers across Africa.</p>
+                            </div>
+                            <div className="clearfix"></div>
+                            <div className="slide-btns">
+                                <Link to="/contact" className="theme-btn">Explore Opportunities<span></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
@@ -39,22 +54,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
-                        <div className="container">
-                            <div className="slide-title">
-                                <h2>Enterprise IT Distribution & Logistics</h2>
-                            </div>
-                            <div className="slide-text">
-                                <p>Optimized supply chain solutions connecting technology vendors with enterprise customers across Africa.</p>
-                            </div>
-                            <div className="clearfix"></div>
-                            <div className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Explore Opportunities<span></span></Link>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
+           
                 <SwiperSlide>
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero3})` }}>
                         <div className="container">
