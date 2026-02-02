@@ -6,7 +6,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar'
 import { useParams } from 'react-router-dom'
 import Footer from '../../components/footer/Footer';
 import Team from '../../api/team'
-import Logo from '../../images/logo-2.png'
+import Logo from '../../images/logo2a.jpeg'
 
 const TeamSinglePage = (props) => {
     const { slug } = useParams()

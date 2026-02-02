@@ -3,7 +3,7 @@ import Navbar3 from '../../components/Navbar3/Navbar3';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Pricing from '../../components/Pricing/Pricing'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/logo2a.jpeg'
 import Footer from '../../components/Footer/Footer';
 
 

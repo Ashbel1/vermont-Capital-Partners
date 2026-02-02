@@ -15,10 +15,15 @@ $white: #fff;
 $black: #000;
 $mid-gray: #7e8690;
 $green: #87d271;
-$digiroc-blue: #001C4A;
 
-$theme-primary-color: $digiroc-blue;
+// Vermont Capital Partners Brand Colors
+$vermont-gold: #c5a47e;
+$vermont-dark: #1a1a1a;
+$vermont-navy: #2c3e50;
+$vermont-cream: #f5f3f0;
+
+$theme-primary-color: $vermont-navy;
 $body-bg-color: $white;
-$section-bg-color: lighten($digiroc-blue, 92%);
-$text-color: #3f4a60;
-$heading-color: $digiroc-blue;
+$section-bg-color: $vermont-cream;
+$text-color: #4a4a4a;
+$heading-color: $vermont-dark;

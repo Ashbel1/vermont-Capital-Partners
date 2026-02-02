@@ -4,7 +4,7 @@ import HeaderTopbar from '../HeaderTopbar/HeaderTopbar';
 import MobileMenu from '../MobileMenu/MobileMenu'
 import { connect } from "react-redux";
 // import { removeFromCart } from "../../store/actions/action";
-import Logo from '../../images/logo.png'
+import Logo from '../../images/logo2a.jpeg'
 
 const Header2 = (props) => {
     // const [cartActive, setcartState] = useState(false);
