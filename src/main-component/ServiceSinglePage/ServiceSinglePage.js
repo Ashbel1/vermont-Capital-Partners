@@ -7,7 +7,7 @@ import Footer from '../../components/footer/Footer';
 import { Link } from 'react-router-dom'
 import Services from '../../api/service'
 import ServiceTab from './ServiceTab';
-import Logo from '../../images/logo2a.jpeg'
+import Logo from '../../images/vermontlogo.png'
 
 
 const ClickHandler = () => {

@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import ProjectSection2 from '../../components/ProjectSection2/ProjectSection2';
 import Footer from '../../components/footer/Footer';
-import Logo from '../../images/logo2a.jpeg'
+import Logo from '../../images/vermontlogo.png'
 
 const ProjectPageS2 =() => {
     return(

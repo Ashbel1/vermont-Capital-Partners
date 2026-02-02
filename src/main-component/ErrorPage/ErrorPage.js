@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Error from '../../components/404/404'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import Logo from '../../images/logo2a.jpeg'
+import Logo from '../../images/vermontlogo.png'
 
 const ErrorPage =() => {
     return(

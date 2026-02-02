@@ -6,7 +6,7 @@ import { addToCart } from "../../store/actions/action";
 import ShopProduct from '../../components/ShopProduct';
 import api from "../../api";
 import Navbar from '../../components/Navbar/Navbar';
-import Logo from '../../images/logo2a.jpeg'
+import Logo from '../../images/vermontlogo.png'
 import Footer from '../../components/footer/Footer';
 
 const ShopPage = ({ addToCart }) => {

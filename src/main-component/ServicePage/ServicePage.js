@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import Logo from '../../images/logo2a.jpeg'
+import Logo from '../../images/vermontlogo.png'
 
 
 const ServicePage =() => {

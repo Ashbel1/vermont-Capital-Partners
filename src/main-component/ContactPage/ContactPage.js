@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Contactpage from '../../components/Contactpage/Contactpage'
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import Logo from '../../images/logo2a.jpeg'
+import Logo from '../../images/vermontlogo.png'
 import Footer from '../../components/footer/Footer';
 
 const ContactPage =() => {
