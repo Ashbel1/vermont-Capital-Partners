@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import './ChatBot.css';
 
 const ChatBot = () => {
@@ -57,7 +57,7 @@ const ChatBot = () => {
         });
     };
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = useCallback((e) => {
         if (isDragging) {
             const newX = e.clientX - dragStart.x;
             const newY = e.clientY - dragStart.y;
@@ -68,11 +68,11 @@ const ChatBot = () => {
                 y: newY
             });
         }
-    };
+    }, [isDragging, dragStart.x, dragStart.y, position.x, position.y]);
 
-    const handleMouseUp = () => {
+    const handleMouseUp = useCallback(() => {
         setIsDragging(false);
-    };
+    }, []);
 
     const handleClick = () => {
         // Only open chat if it wasn't a drag (distance less than 5px)
