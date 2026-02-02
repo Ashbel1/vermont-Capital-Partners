@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
 import Services from '../../api/service'
 
@@ -8,6 +8,29 @@ const ClickHandler = () => {
 }
 
 const ServiceSection = () => {
+    useEffect(() => {
+        // Scroll reveal animation
+        const revealElements = document.querySelectorAll('.service-reveal');
+        
+        const revealOnScroll = () => {
+            revealElements.forEach((element, index) => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    setTimeout(() => {
+                        element.classList.add('active');
+                    }, index * 100); // Stagger effect
+                }
+            });
+        };
+        
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll(); // Initial check
+        
+        return () => window.removeEventListener('scroll', revealOnScroll);
+    }, []);
+
     return (
         <section className="services-section-s2">
             <div className="container">
@@ -24,13 +47,27 @@ const ServiceSection = () => {
                     <div className="col col-xs-12">
                         <div className="services-grids clearfix">
                             {Services.map((service, srv) => (
-                                <div className="grid" key={srv} style={service.sTitle === 'Toughrock Investments' ? {paddingBottom: '10px'} : {}}>
+                                <div className="grid service-reveal reveal" key={srv} style={service.sTitle === 'Toughrock Investments' ? {paddingBottom: '10px'} : {}}>
                                     {service.sTitle !== 'Toughrock Investments' && (
                                         <div className="icon" style={{marginBottom: '15px'}}>
                                             <i className={`fi ${service.icon}`}></i>
                                         </div>
                                     )}
-                                    <h3 style={{marginTop: service.sTitle === 'Toughrock Investments' ? '10px' : '0', textDecoration: 'underline', textUnderlineOffset: '4px'}}><Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>{service.sTitle}</Link></h3>
+                                    <h3 style={{marginTop: service.sTitle === 'Toughrock Investments' ? '10px' : '0', textDecoration: 'underline', textUnderlineOffset: '4px'}}>
+                                        {service.sTitle === 'Digiroc Technologies' ? (
+                                            <a 
+                                                href="https://digiroc.vercel.app" 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                                style={{display: 'inline-flex', alignItems: 'center', gap: '8px'}}
+                                            >
+                                                {service.sTitle}
+                                                <i className="ti-new-window" style={{fontSize: '14px', opacity: '0.7'}}></i>
+                                            </a>
+                                        ) : (
+                                            <Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>{service.sTitle}</Link>
+                                        )}
+                                    </h3>
                                     <p style={{marginBottom: '6px', marginTop: '8px', fontSize: '15px', lineHeight: '1.4', color: '#666'}}>{service.description}</p>
                                     
                                     {/* Display sub-branches if they exist */}
