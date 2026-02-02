@@ -14,11 +14,11 @@ const HeaderTopbar = () => {
                 </div>
                 <div className="social">
                     <ul>
-                        <li><Link to="/"><i className="ti-facebook"></i></Link></li>
-                        <li><Link to="/"><i className="ti-twitter-alt"></i></Link></li>
-                        <li><Link to="/"><i className="ti-linkedin"></i></Link></li>
-                        <li><Link to="/"><i className="ti-pinterest"></i></Link></li>
-                        <li><Link to="/"><i className="ti-vimeo-alt"></i></Link></li>
+                        <li><Link to="/coming-soon"><i className="ti-facebook"></i></Link></li>
+                        <li><Link to="/coming-soon"><i className="ti-twitter-alt"></i></Link></li>
+                        <li><Link to="/coming-soon"><i className="ti-linkedin"></i></Link></li>
+                        <li><Link to="/coming-soon"><i className="ti-pinterest"></i></Link></li>
+                        <li><Link to="/coming-soon"><i className="ti-vimeo-alt"></i></Link></li>
                     </ul>
                 </div>
             </div>

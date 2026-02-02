@@ -26,6 +26,7 @@ import BlogDetailsFull from '../BlogDetailsFull/BlogDetailsFull'
 import ContactPage from '../ContactPage/ContactPage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
+import ComingSoonPage from '../ComingSoonPage/ComingSoonPage';
 
 
 const AllRoute = () => {
@@ -64,6 +65,7 @@ const AllRoute = () => {
           <Route path='blog-single-left-sidebar/:slug' element={<BlogDetailsLeftSiide />} />
           <Route path='blog-single-fullwidth/:slug' element={<BlogDetailsFull />} />
           <Route path='contact' element={<ContactPage />} />
+          <Route path='coming-soon' element={<ComingSoonPage />} />
           <Route path='404' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>

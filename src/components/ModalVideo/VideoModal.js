@@ -1,25 +1,22 @@
 
-import React, { useState } from 'react'
-import ModalVideo from 'react-modal-video'
-import '../../../node_modules/react-modal-video/scss/modal-video.scss';
-
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const VideoModal = () => {
   
-  const [isOpen, setOpen] = useState(false)
+  const ClickHandler = () => {
+    window.scrollTo(10, 0);
+  }
 
   return (
     <React.Fragment>
-      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
-
       <div className="video-btn">
         <ul>
           <li>
-            <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-play-buttton" aria-hidden="true"></i></button>
+            <Link onClick={ClickHandler} to="/coming-soon" className="btn-wrap"><i className="fi flaticon-play-buttton" aria-hidden="true"></i></Link>
           </li>
         </ul>
       </div>
-
     </React.Fragment>
   )
 }

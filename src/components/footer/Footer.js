@@ -19,7 +19,9 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <img src={Logo} alt="Vermont Capital Partners" />
+                                    <Link onClick={ClickHandler} to="/home">
+                                        <img src={Logo} alt="Vermont Capital Partners" />
+                                    </Link>
                                 </div>
                                 <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, wealth management, and capital advisory services tailored to your success.</p>
                             </div>
@@ -85,11 +87,11 @@ const Footer = (props) => {
                             <p className="copyright">Copyright &copy; 2026 Vermont Capital Partners. All rights reserved.</p>
                             <div className="social-icons">
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/"><i className="ti-facebook"></i></Link></li>
-                                    <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter-alt"></i></Link></li>
-                                    <li><Link onClick={ClickHandler} to="/"><i className="ti-linkedin"></i></Link></li>
-                                    <li><Link onClick={ClickHandler} to="/"><i className="ti-pinterest"></i></Link></li>
-                                    <li><Link onClick={ClickHandler} to="/"><i className="ti-vimeo-alt"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} to="/coming-soon"><i className="ti-facebook"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} to="/coming-soon"><i className="ti-twitter-alt"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} to="/coming-soon"><i className="ti-linkedin"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} to="/coming-soon"><i className="ti-pinterest"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} to="/coming-soon"><i className="ti-vimeo-alt"></i></Link></li>
                                 </ul>
                             </div>
                         </div>

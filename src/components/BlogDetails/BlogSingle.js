@@ -57,10 +57,10 @@ const BlogSingle = (props) => {
                                 <div className="share">
                                     Share: &nbsp;
                                     <ul>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-facebook"></i></Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-twitter-alt"></i></Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-linkedin"></i></Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-instagram"></i></Link></li>
+                                        <li><Link to="/coming-soon"><i className="ti-facebook"></i></Link></li>
+                                        <li><Link to="/coming-soon"><i className="ti-twitter-alt"></i></Link></li>
+                                        <li><Link to="/coming-soon"><i className="ti-linkedin"></i></Link></li>
+                                        <li><Link to="/coming-soon"><i className="ti-instagram"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -74,10 +74,10 @@ const BlogSingle = (props) => {
                                     <p>We share practical guidance on investment strategy, wealth management, and portfolio optimization for individuals and organizations across South Africa.</p>
                                     <div className="socials">
                                         <ul className="social-link">
-                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-facebook"></i></Link></li>
-                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-twitter-alt"></i></Link></li>
-                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-linkedin"></i></Link></li>
-                                            <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-instagram"></i></Link></li>
+                                            <li><Link to="/coming-soon"><i className="ti-facebook"></i></Link></li>
+                                            <li><Link to="/coming-soon"><i className="ti-twitter-alt"></i></Link></li>
+                                            <li><Link to="/coming-soon"><i className="ti-linkedin"></i></Link></li>
+                                            <li><Link to="/coming-soon"><i className="ti-instagram"></i></Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -85,12 +85,12 @@ const BlogSingle = (props) => {
 
                             <div className="more-posts">
                                 <div className="previous-post">
-                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">
+                                    <Link to="/coming-soon">
                                         <span className="post-control-link"><i className="ti-arrow-circle-left"> </i>Previous post</span>
                                     </Link>
                                 </div>
                                 <div className="next-post">
-                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">
+                                    <Link to="/coming-soon">
                                         <span className="post-control-link">Next post <i className="ti-arrow-circle-right"></i></span>
                                     </Link>
                                 </div>

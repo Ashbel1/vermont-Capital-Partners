@@ -39,25 +39,25 @@ const ServiceSinglePage = (props) => {
                                     <img src={ServiceDetails.sImg} alt="" />
                                 </div>
                                 <h2>{ServiceDetails.sTitle}</h2>
-                                <p>Vermont Capital Partners delivers comprehensive investment and financial advisory services tailored to your wealth management goals. With expertise across multiple sectors and a proven track record of success, we provide strategic solutions that maximize returns while managing risk effectively.</p>
-                                <p>From investment planning to portfolio management, we coordinate strategic partnerships and deliver integrated solutions so your financial objectives are met with excellence and professionalism.</p>
+                                <p>{ServiceDetails.fullDescription || ServiceDetails.description}</p>
+                                <p>{ServiceDetails.fullDescription2 || ServiceDetails.des2}</p>
 
-                                <h3>Enterprise Delivery Capabilities</h3>
-                                <p>We cover sourcing, logistics, architecture, deployment, and lifecycle services to keep your technology stack secure, scalable, and available.</p>
+                                <h3>{ServiceDetails.mainTitle || 'Service Capabilities'}</h3>
+                                <p>{ServiceDetails.des3}</p>
                                 <div className="service-features">
                                     <ul>
-                                        <li><i className="ti-check-box"></i>Vendor sourcing & procurement</li>
-                                        <li><i className="ti-check-box"></i>Enterprise licensing & compliance</li>
-                                        <li><i className="ti-check-box"></i>Secure deployment & integration</li>
+                                        {ServiceDetails.serviceFeatures && ServiceDetails.serviceFeatures.slice(0, 3).map((feature, idx) => (
+                                            <li key={idx}><i className="ti-check-box"></i>{feature}</li>
+                                        ))}
                                     </ul>
                                     <ul>
-                                        <li><i className="ti-check-box"></i>Storage, backup & DR</li>
-                                        <li><i className="ti-check-box"></i>Network & infrastructure services</li>
-                                        <li><i className="ti-check-box"></i>Lifecycle support & warranty</li>
+                                        {ServiceDetails.serviceFeatures && ServiceDetails.serviceFeatures.slice(3, 6).map((feature, idx) => (
+                                            <li key={idx}><i className="ti-check-box"></i>{feature}</li>
+                                        ))}
                                     </ul>
                                 </div>
 
-                                <ServiceTab />
+                                <ServiceTab serviceSlug={ServiceDetails.slug} />
 
                                 <div className="request-service">
                                     <h3>Request this service</h3>
@@ -91,10 +91,9 @@ const ServiceSinglePage = (props) => {
                                 <div className="widget service-features-widget">
                                     <h3>Our Service Features</h3>
                                     <ol>
-                                        <li>Vendor-authorized sourcing</li>
-                                        <li>Secure enterprise deployment</li>
-                                        <li>Reliable logistics & delivery</li>
-                                        <li>Lifecycle support & warranty</li>
+                                        {ServiceDetails.capabilities && ServiceDetails.capabilities.slice(0, 4).map((capability, idx) => (
+                                            <li key={idx}>{capability}</li>
+                                        ))}
                                     </ol>
                                 </div>
                                 <div className="widget download-widget">
@@ -105,7 +104,7 @@ const ServiceSinglePage = (props) => {
                                 <div className="widget contact-widget">
                                     <div>
                                         <h4>Need help?</h4>
-                                        <p>Contact our team to discuss hardware, software, cloud, or infrastructure requirements.</p>
+                                        <p>Contact Vermont Capital Partners to discuss your {ServiceDetails.sTitle} needs and explore how we can support your business goals.</p>
                                         <p>Phone: +263718911411</p>
                                         <p>Email: info@vermontcapitalpartners.com</p>
                                         <Link onClick={ClickHandler} to='/contact'>Contact With Us</Link>

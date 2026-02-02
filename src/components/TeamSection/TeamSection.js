@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Team from '../../api/team'
-import ModalVideo from 'react-modal-video'
 
 
 const ClickHandler = () => {
@@ -9,8 +8,6 @@ const ClickHandler = () => {
 }
 
 const TeamSection = (props) => {
-
-    const [isOpen, setOpen] = useState(false)
 
     return (
         <section className="cta-with-team-section section-padding">
@@ -20,7 +17,7 @@ const TeamSection = (props) => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="cta-content">
                             <div className="video-holder">
-                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See how Vermont Capital delivers value</span></button>
+                                <Link onClick={ClickHandler} to="/coming-soon" className="btn-wrap"><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See how Vermont Capital delivers value</span></Link>
                             </div>
                             <h3>We deliver strategic investment management, wealth advisory, and comprehensive financial solutions across South Africa</h3>
                         </div>
@@ -60,7 +57,6 @@ const TeamSection = (props) => {
                     </div>
                 </div>
             </div>
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
         </section>
     )
 }

@@ -6,7 +6,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import Projects from '../../api/project'
 import Footer from '../../components/footer/Footer';
 import Logo from '../../images/vermontlogo.png'
@@ -15,8 +15,16 @@ import { Link } from "react-router-dom";
 const ProjectSinglePage = (props) => {
 
     const { slug } = useParams()
+    const navigate = useNavigate()
 
     const projectDetails = Projects.find(item => item.slug === slug)
+
+    // If project not found, redirect to 404
+    React.useEffect(() => {
+        if (!projectDetails) {
+            navigate('/404')
+        }
+    }, [projectDetails, navigate])
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -27,6 +35,11 @@ const ProjectSinglePage = (props) => {
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
     };
+
+    // Show nothing while redirecting
+    if (!projectDetails) {
+        return null;
+    }
 
     return (
         <Fragment>
@@ -43,16 +56,16 @@ const ProjectSinglePage = (props) => {
                                 <div className="content-area">
                                     <div className="project-info">
                                         <ul>
-                                            <li><span>Client:</span> Enterprise Customer</li>
-                                            <li><span>Location:</span> Cape Town, South Africa</li>
-                                            <li><span>Status:</span> Completed</li>
-                                            <li><span>Duration:</span> 6 Weeks</li>
-                                            <li><span>Tags:</span> Investment Strategy, Portfolio Management</li>
+                                            <li><span>Client:</span> {projectDetails.client || 'Enterprise Customer'}</li>
+                                            <li><span>Location:</span> {projectDetails.location || 'Cape Town, South Africa'}</li>
+                                            <li><span>Status:</span> {projectDetails.status || 'Completed'}</li>
+                                            <li><span>Duration:</span> {projectDetails.duration || '6 Weeks'}</li>
+                                            <li><span>Tags:</span> {projectDetails.tags || projectDetails.subTitle}</li>
                                         </ul>
                                     </div>
-                                    <h2>Strategic Investment Portfolio Development</h2>
-                                    <p>Vermont Capital Partners delivered a comprehensive investment strategy and portfolio optimization for an enterprise client, covering asset allocation, risk management, and diversification across multiple sectors. The project included thorough financial analysis, strategic planning, and ongoing portfolio management support.</p>
-                                    <p>Our team ensured regulatory compliance, alignment with client objectives, and a structured investment plan that maximized returns while managing risk effectively.</p>
+                                    <h2>{projectDetails.mainTitle || projectDetails.title}</h2>
+                                    <p>{projectDetails.description || 'Vermont Capital Partners delivered a comprehensive solution tailored to client needs.'}</p>
+                                    <p>{projectDetails.description2 || 'Our team ensured successful project delivery with exceptional results.'}</p>
 
                                     <div className="challange-solution-section">
                                         <div className="theme-accordion-s1">
@@ -66,11 +79,14 @@ const ProjectSinglePage = (props) => {
                                                 </AccordionSummary>
                                                 <AccordionDetails>
                                                     <Typography>
-                                                        <p>The client needed a comprehensive investment strategy with diversified portfolio allocation, strict risk management controls, and regulatory compliance.</p>
-                                                        <ul>
-                                                            <li><i className="ti-check"></i>Coordinating multi-sector investment allocation</li>
-                                                            <li><i className="ti-check"></i>Ensuring compliance, risk management, and performance tracking</li>
-                                                        </ul>
+                                                        <p>{projectDetails.challenge || 'The client faced complex business challenges requiring strategic solutions.'}</p>
+                                                        {projectDetails.challengeDetails && (
+                                                            <ul>
+                                                                {projectDetails.challengeDetails.map((detail, idx) => (
+                                                                    <li key={idx}><i className="ti-check"></i>{detail}</li>
+                                                                ))}
+                                                            </ul>
+                                                        )}
                                                     </Typography>
                                                 </AccordionDetails>
                                             </Accordion>
@@ -84,11 +100,14 @@ const ProjectSinglePage = (props) => {
                                                 </AccordionSummary>
                                                 <AccordionDetails>
                                                     <Typography>
-                                                    <p>Vermont Capital Partners provided comprehensive financial analysis, strategic portfolio construction, and ongoing wealth management to execute the investment plan with exceptional results.</p>
-                                                            <ul>
-                                                                <li><i className="ti-check"></i>Diversified portfolio strategy delivered on objectives</li>
-                                                                <li><i className="ti-check"></i>Ongoing advisory support and performance monitoring</li>
-                                                            </ul>
+                                                    <p>{projectDetails.solution || 'Vermont Capital Partners delivered comprehensive solutions that exceeded client expectations.'}</p>
+                                                            {projectDetails.solutionDetails && (
+                                                                <ul>
+                                                                    {projectDetails.solutionDetails.map((detail, idx) => (
+                                                                        <li key={idx}><i className="ti-check"></i>{detail}</li>
+                                                                    ))}
+                                                                </ul>
+                                                            )}
                                                     </Typography>
                                                 </AccordionDetails>
                                             </Accordion>
@@ -96,21 +115,21 @@ const ProjectSinglePage = (props) => {
                                     </div>
                                     <div className="prev-next-project">
                                         <div>
-                                            <Link onClick={ClickHandler} to={'/project-single/Server-Storage-Deployment'}>
+                                            <Link onClick={ClickHandler} to={'/coming-soon'}>
                                                 <div className="icon">
                                                     <i className="fi flaticon-back"></i>
                                                 </div>
                                                 <span>Previous project</span>
-                                                <h5>Server & Storage Deployment</h5>
+                                                <h5>Coming Soon</h5>
                                             </Link>
                                         </div>
                                         <div>
-                                            <Link onClick={ClickHandler} to={'/project-single/Microsoft-365-Enablement'}>
+                                            <Link onClick={ClickHandler} to={'/coming-soon'}>
                                                 <div className="icon">
                                                     <i className="fi flaticon-next"></i>
                                                 </div>
                                                 <span>Next project</span>
-                                                <h5>Microsoft 365 Enablement</h5>
+                                                <h5>Coming Soon</h5>
                                             </Link>
                                         </div>
                                     </div>
