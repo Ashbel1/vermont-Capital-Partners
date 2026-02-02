@@ -52,10 +52,10 @@ const TeamSinglePage = (props) => {
                                             <h3>{TeamDetails.name}</h3>
                                             <span>{TeamDetails.title}</span>
                                             <ul>
-                                                <li><i className="ti-mobile"></i><span>Phone: </span>+263718911411</li>
-                                                <li><i className="ti-email"></i><span>Email: </span>info@digiroc.co.zw</li>
+                                                <li><i className="ti-mobile"></i><span>Phone: </span>+27 68 804 3460</li>
+                                                <li><i className="ti-email"></i><span>Email: </span>info@vermontcapitalpartners.com</li>
                                                 <li><i className="ti-timer"></i><span>Experience: </span>10+ Years</li>
-                                                <li><i className="ti-location-pin"></i><span>Address: </span>59 Ridgeway North, Highlands, Harare, Zimbabwe</li>
+                                                <li><i className="ti-location-pin"></i><span>Address: </span>46 Fairmill, Marais Road, Milnerton, 7441, Cape Town, South Africa</li>
                                             </ul>
                                         </div>
                                         <div className="social">
