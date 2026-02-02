@@ -147,7 +147,7 @@ const ChatBot = () => {
                 document.removeEventListener('mouseup', handleMouseUp);
             };
         }
-    }, [isDragging, dragStart]);
+    }, [isDragging, handleMouseMove, handleMouseUp]);
 
     return (
         <>
