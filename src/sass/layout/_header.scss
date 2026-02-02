@@ -7,7 +7,7 @@
 		margin-top: 7px;
 
 		img {
-			max-width: 175px;
+			max-width: 220px;
 			border-radius: 8px;
 		}
 
@@ -35,6 +35,7 @@
 		font-family: $heading-font;
 		@include transition-time(0.5s);
 		padding-right: 90px;
+		margin-left: 80px;
 
 		ul {
 			list-style: none;
