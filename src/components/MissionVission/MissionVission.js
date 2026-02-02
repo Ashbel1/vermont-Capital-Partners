@@ -11,7 +11,7 @@ const MissionVission = () => {
                 <div className="row justify-content-center">
                     <div className="col col-xl-8 col-lg-10">
                         <div className="title-area">
-                            <h2>Digiroc Technologies powers enterprise growth through reliable IT distribution, cloud enablement, and infrastructure services across African markets.</h2>
+                            <h2>Vermont Capital Partners drives sustainable growth and value creation through strategic investments in automotive trading, infrastructure development, financial services, and technology solutions across South Africa.</h2>
                         </div>
                     </div>
                 </div>

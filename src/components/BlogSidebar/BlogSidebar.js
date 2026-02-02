@@ -30,7 +30,7 @@ const BlogSidebar = (props) => {
                     <div className="img-holder">
                         <img src={about} alt="" />
                     </div>
-                    <p>Digiroc Technologies delivers enterprise IT distribution, cloud enablement, and infrastructure services across Africa.</p>
+                    <p>Vermont Capital Partners delivers strategic investment solutions and comprehensive business services through our diverse portfolio of companies across automotive, infrastructure, finance, and technology sectors in South Africa.</p>
                     <Link onClick={ClickHandler} to="/about">More about us</Link>
                 </div>
                 <div className="widget category-widget">

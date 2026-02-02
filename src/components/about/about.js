@@ -12,20 +12,20 @@ const About = (props) => {
                         <div className="img-holder">
                             <img src={abimg} alt="" />
                             <div className="experience-text">
-                                Enterprise-Ready <span>IT Distribution</span>
+                                Trusted Financial <span>Partners</span>
                             </div>
                             <VideoModal />
                         </div>
                     </div>
                     <div className="col col-lg-6 order-lg-2 order-1 col-12">
                         <div className="section-title-s2">
-                            <span>About Digiroc Technologies</span>
-                            <h2>Powering Enterprises With Technology</h2>
+                            <span>About Vermont Capital Partners</span>
+                            <h2>Building Wealth Through Strategic Investment</h2>
                         </div>
                         <div className="about-content">
-                            <h4>IT Distribution & Enterprise Solutions Partner</h4>
-                            <p>Digiroc Technologies delivers end-to-end enterprise technology solutions across Africa. We specialize in IT distribution for hardware and software, enterprise platforms like Azure, AWS, and Microsoft 365, and data storage and infrastructure services. Our mission is to ensure reliable technology supply, secure deployment, and long-term lifecycle support for enterprises, institutions, and technology partners.</p>
-                            <h5>Phone: +263718911411, Email: info@digiroc.co.zw</h5>
+                            <h4>Cape Town's Premier Investment & Capital Advisory Firm</h4>
+                            <p>Vermont Capital Partners is a leading financial services firm based in Cape Town, South Africa. We specialize in strategic investment management, capital advisory, wealth management, and financial planning. Our mission is to deliver exceptional returns while building long-term partnerships with our clients. With deep expertise in the South African market and international investment opportunities, we provide personalized solutions tailored to your financial goals.</p>
+                            <h5>Phone: +27 68 804 3460 | Email: info@vermontcapitalpartners.com</h5>
                         </div>
                     </div>
                 </div>

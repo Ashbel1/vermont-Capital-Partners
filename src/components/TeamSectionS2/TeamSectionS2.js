@@ -16,7 +16,7 @@ const TeamSectionS2 = (props) => {
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-s2">
                             <span>Team members</span>
-                            <h2>Meet the Digiroc <br />delivery team</h2>
+                            <h2>Meet the Vermont Capital <br />Partners team</h2>
                         </div>
                     </div>
                     <div className="col col-lg-6 col-12">

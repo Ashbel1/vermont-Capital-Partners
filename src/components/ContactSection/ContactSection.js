@@ -10,13 +10,15 @@ const ContactSection = () => {
             <div className="content-area">
                 <div className="left-col" style={{ backgroundImage: `url(${contactImg})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '799px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <div className="contact-message" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', padding: '30px', borderRadius: '8px', textAlign: 'center' }}>
-                        <h4 style={{ color: '#fff' }}>Don't hesitate to contact us. Phone: +263718911411, Email: info@digiroc.co.zw</h4>
+                        <h4 style={{ color: '#fff' }}>Ready to grow your wealth? Contact Vermont Capital Partners today.</h4>
+                        <p style={{ color: '#fff', marginTop: '15px' }}>Phone: +27 68 804 3460 | Email: info@vermontcapitalpartners.com</p>
+                        <p style={{ color: '#fff', fontSize: '14px' }}>46 Fairmill, Marais Road, Milnerton, Cape Town, 7441, South Africa</p>
                     </div>
                 </div>
                 <div className="right-col">
                         <div className="section-title-s2">
-                            <span>Contact</span>
-                            <h2>Request a quote or consultation</h2>
+                            <span>Contact Vermont Capital Partners</span>
+                            <h2>Schedule Your Financial Consultation</h2>
                         </div>
                     <div className="contact-form">
                         <ContactForm />

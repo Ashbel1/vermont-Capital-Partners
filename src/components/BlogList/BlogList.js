@@ -29,7 +29,7 @@ const BlogList = (props) => {
                                         <li><Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>{blog.comment} Comments</Link></li>
                                     </ul>
                                     <h3><Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>{blog.title}.</Link></h3>
-                                    <p>Discover insights on IT distribution, enterprise platforms, storage, security, and cloud adoption. Digiroc Technologies shares practical guidance for organizations building reliable infrastructure across Africa.</p>
+                                    <p>Discover insights on investment strategies, automotive solutions, infrastructure development, financial services, and technology innovation. Vermont Capital Partners shares expert guidance and practical knowledge for building sustainable business success across South Africa.</p>
                                     <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`} className="more">Read More</Link>
                                 </div>
                             ))}

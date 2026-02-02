@@ -16,7 +16,7 @@ const ServiceSectionS2 = (props) => {
                         <div className="section-title-s3">
                             <span>Services</span>
                             <h2>Enterprise IT services</h2>
-                            <p>Digiroc Technologies delivers hardware and software distribution, cloud enablement, storage, and infrastructure services tailored for enterprise operations across Africa.</p>
+                            <p>Vermont Capital Partners delivers comprehensive investment solutions and business services through our portfolio of industry-leading companies across automotive, infrastructure, finance, and technology sectors in South Africa.</p>
                         </div>
                     </div>
                 </div>

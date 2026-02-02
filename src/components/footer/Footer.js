@@ -19,9 +19,9 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <img src={Logo} alt="" />
+                                    <img src={Logo} alt="Vermont Capital Partners" />
                                 </div>
-                                <p>Digiroc Technologies delivers enterprise IT distribution and solutions across Africa, supplying hardware, software, cloud platforms, storage, and infrastructure with reliable logistics and support.</p>
+                                <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, wealth management, and capital advisory services tailored to your success.</p>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">
@@ -49,9 +49,12 @@ const Footer = (props) => {
                                     <h3>Contact Info</h3>
                                 </div>
                                 <ul>
-                                    <li>Phone: +263718911411 </li>
-                                    <li>Email: info@digiroc.co.zw</li>
-                                    <li>Office Time: 8AM- 5PM</li>
+                                    <li>Phone: +27 68 804 3460</li>
+                                    <li>Email: info@vermontcapitalpartners.com</li>
+                                    <li>Address: 46 Fairmill, Marais Road</li>
+                                    <li>Milnerton, 7441, Cape Town</li>
+                                    <li>Western Cape, South Africa</li>
+                                    <li>Office Hours: 8AM - 5PM (SAST)</li>
                                 </ul>
                             </div>
                         </div>
@@ -79,7 +82,7 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="separator"></div>
                         <div className="col col-xs-12">
-                            <p className="copyright">Copyright &copy; 2026 Digiroc. All rights reserved.</p>
+                            <p className="copyright">Copyright &copy; 2026 Vermont Capital Partners. All rights reserved.</p>
                             <div className="social-icons">
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/"><i className="ti-facebook"></i></Link></li>

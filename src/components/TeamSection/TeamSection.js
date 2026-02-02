@@ -20,7 +20,7 @@ const TeamSection = (props) => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="cta-content">
                             <div className="video-holder">
-                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See how Digiroc delivers</span></button>
+                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See how Vermont Capital delivers value</span></button>
                             </div>
                             <h3>We deliver enterprise IT distribution, cloud enablement, and infrastructure services across Africa</h3>
                         </div>
@@ -31,7 +31,7 @@ const TeamSection = (props) => {
                         <div className="col col-lg-6 col-12">
                             <div className="section-title-s4">
                                 <span>Team members</span>
-                                <h2>Meet the Digiroc <br />delivery team</h2>
+                                <h2>Meet the Vermont Capital <br />Partners team</h2>
                             </div>
                         </div>
                         <div className="col col-lg-6 col-12">

@@ -6,13 +6,13 @@ const Skill = (props) => {
             <div className="content-area">
                 <div className="left-col"></div>
                 <div className="right-col">
-                    <h2>Why Digiroc is the best choice for <br />enterprise IT delivery</h2>
-                    <p>Digiroc Technologies combines vendor partnerships, enterprise architecture expertise, and reliable logistics to deliver hardware, software, cloud, storage, and infrastructure solutions across Africa.</p>
+                    <h2>Why Vermont Capital Partners is the <br />best choice for strategic investment</h2>
+                    <p>Vermont Capital Partners combines deep market expertise with a diversified portfolio of industry-leading companies. From automotive trading and infrastructure development to financial services and technology solutions, we deliver comprehensive value across multiple sectors in South Africa.</p>
                     <ul>
-                        <li><i className="ti-check"></i>Authorized hardware and software distribution</li>
-                        <li><i className="ti-check"></i>Cloud enablement for Azure, AWS, and Microsoft 365</li>
-                        <li><i className="ti-check"></i>Storage, backup, and infrastructure modernization</li>
-                        <li><i className="ti-check"></i>Deployment, warranty, and lifecycle support</li>
+                        <li><i className="ti-check"></i>Diversified portfolio across automotive, infrastructure & technology</li>
+                        <li><i className="ti-check"></i>Strategic investment management and capital advisory</li>
+                        <li><i className="ti-check"></i>Financial services and microfinance through partner companies</li>
+                        <li><i className="ti-check"></i>Comprehensive business solutions and ongoing support</li>
                     </ul>
                     <div className="skills">
                         <div className="skill">
@@ -52,8 +52,8 @@ const Skill = (props) => {
                     <div className="col-lg-5 col-md-12 col-12">
                         <div className="wpo-skill-text">
                             <h5>Our Professional Skill’s</h5>
-                            <h2>Professional Skill of <span>Digiroc.</span></h2>
-                            <p>Digiroc Technologies combines deep market expertise with advanced analytical capabilities to deliver strategic intelligence and technology solutions. Our team's specialized skills in market research, data analytics, and IT distribution enable us to provide exceptional value to enterprise clients and investment firms across African markets.</p>
+                            <h2>Professional Excellence of <span>Vermont Capital Partners.</span></h2>
+                            <p>Vermont Capital Partners brings together exceptional expertise across investment management, automotive trading, infrastructure development, financial services, and technology solutions. Our portfolio companies including TRES AUTO GROUP, Toughrock Investments, and Digiroc Technologies enable us to provide comprehensive strategic solutions and deliver outstanding value to partners and investors across South African markets.</p>
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1 col-md-12 col-12">

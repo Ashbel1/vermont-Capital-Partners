@@ -26,14 +26,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Enterprise IT Distribution & Supply</h2>
+                                <h2>Strategic Investment Partners</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Authorized distribution of laptops, desktops, servers, networking, storage, and software across Africa.</p>
+                                <p>Building sustainable wealth through strategic investments and financial excellence in South Africa.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Explore Solutions<span></span></Link>
+                                <Link to="/contact" className="theme-btn">Partner With Us<span></span></Link>
                             </div>
                         </div>
                     </div>
@@ -42,14 +42,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Enterprise Solutions & Cloud Enablement</h2>
+                                <h2>Capital Solutions That Drive Growth</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Azure, AWS, Microsoft 365, security, and data storage solutions delivered with expert integration and support.</p>
+                                <p>Expert financial advisory and capital investment services from Cape Town's trusted financial partner.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Talk to an Expert<span></span></Link>
+                                <Link to="/contact" className="theme-btn">Discover Opportunities<span></span></Link>
                             </div>
                         </div>
                     </div>
@@ -59,14 +59,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero3})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Data & Infrastructure Intelligence</h2>
+                                <h2>Your Success Is Our Mission</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Performance insights that optimize procurement, inventory, and enterprise IT operations.</p>
+                                <p>Personalized investment strategies and financial planning designed to achieve your long-term goals.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Learn More<span></span></Link>
+                                <Link to="/contact" className="theme-btn">Get Started<span></span></Link>
                             </div>
                         </div>
                     </div>

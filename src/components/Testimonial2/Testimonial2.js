@@ -24,7 +24,7 @@ const Testimonial2 = () => {
                         <div className="testimonial-slider">
                             <Slider {...settings}>
                                 <div className="testimonials-area">
-                                    <p>Digiroc delivers the hardware, software, and licensing we need on time, with strong vendor relationships and reliable logistics.</p>
+                                    <p>Vermont Capital Partners' portfolio companies deliver exceptional services across multiple sectors. From automotive solutions to technology infrastructure and financial services, their integrated approach and professional expertise consistently exceed our expectations.</p>
                                     <span className="quoter">Procurement Manager, Enterprise</span>
                                 </div>
                                 <div className="testimonials-area">

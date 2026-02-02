@@ -8,7 +8,7 @@ const WorkProcess = (props) => {
                     <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section-title">
                             <span>Our work process</span>
-                            <h3>From requirements to rollout, Digiroc delivers end-to-end IT distribution and enterprise solutions that keep organizations secure, connected, and productive.</h3>
+                            <h3>Vermont Capital Partners delivers strategic investment solutions and exceptional value through our portfolio of industry-leading companies, driving growth and innovation across automotive, infrastructure, finance, and technology sectors in South Africa.</h3>
                         </div>
                     </div>
                 </div>
