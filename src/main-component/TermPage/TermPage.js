@@ -24,9 +24,9 @@ const TermPage = (props) => {
                                     <img src={tImg1} alt=""/>
                                 </div>
                                 <div className="wpo-terms-text">
-                                    <h2>Digiroc Terms & Conditions</h2>
-                                    <p>Digiroc Technologies provides enterprise IT distribution, licensing, cloud enablement, and infrastructure services. The terms below outline how we engage with customers, deliver products, and support enterprise deployments.</p>
-                                    <p>All orders, delivery timelines, and warranties are subject to vendor availability and agreed service levels. Licensing and cloud services are governed by the respective vendor terms.</p>
+                                    <h2>Vermont Capital Partners Terms & Conditions</h2>
+                                    <p>Vermont Capital Partners provides investment management, financial advisory services, wealth management, and capital solutions through our diversified portfolio. The terms below outline how we engage with clients, deliver services, and support investment strategies.</p>
+                                    <p>All investment agreements, advisory services, and financial transactions are subject to regulatory compliance and agreed service levels. Portfolio management and investment strategies are governed by applicable financial regulations and client agreements.</p>
 
                                     <ul>
                                         <li>Use of this website and its content for business inquiries and procurement.</li>
@@ -48,7 +48,7 @@ const TermPage = (props) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <p>For project-specific terms or enterprise agreements, contact Digiroc to define the scope, service levels, and support requirements.</p>
+                                    <p>For specific investment terms or advisory agreements, contact Vermont Capital Partners to define the scope, investment strategies, and service requirements.</p>
 
                                 </div>
                                 <FAQ />

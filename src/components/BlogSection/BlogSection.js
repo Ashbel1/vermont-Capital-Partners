@@ -15,12 +15,12 @@ const BlogSection = () => {
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-s2">
                             <span>Insights</span>
-                            <h2>IT Distribution & <br/>Enterprise Updates</h2>
+                            <h2>Investment Strategies & <br/>Market Intelligence</h2>
                         </div>
                     </div>
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-text">
-                            <p>Stay informed on hardware availability, enterprise platforms, cloud adoption, storage, and infrastructure best practices across African markets.</p>
+                            <p>Stay informed on investment opportunities, market trends, wealth management strategies, portfolio optimization, and financial best practices across South African markets.</p>
                         </div>
                     </div>
                 </div>

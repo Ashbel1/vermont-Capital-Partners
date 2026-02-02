@@ -34,24 +34,24 @@ const BlogSingle = (props) => {
                                     <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">{BlogDetails.comment} Comments</Link></li>
                                 </ul>
                                 <h2>{BlogDetails.title}</h2>
-                                <p>Reliable IT supply chains are critical for enterprise operations. Digiroc Technologies ensures authorized distribution and timely delivery of hardware, software, and infrastructure solutions across African markets.</p>
-                                <p>We coordinate vendor partnerships, procurement, logistics, and deployment planning so customers can scale with confidence and maintain strong security and compliance standards.</p>
+                                <p>Strategic investment partnerships are critical for sustainable growth and wealth creation. Vermont Capital Partners ensures comprehensive financial advisory and portfolio management across diverse sectors including automotive, infrastructure, and technology solutions in South African markets.</p>
+                                <p>We coordinate strategic planning, investment allocation, risk management, and wealth optimization so clients can build lasting financial success with confidence and security.</p>
                                 <blockquote>
-                                    Reliable distribution and enterprise platforms are the foundation of secure, productive operations.
-                                    <span className="quoter">- Digiroc Delivery Team</span>
+                                    Strategic partnerships and diversified portfolios are the foundation of sustainable wealth and growth.
+                                    <span className="quoter">- Vermont Capital Partners Advisory Team</span>
                                 </blockquote>
-                                <h3>Distribution, Cloud, and Infrastructure That Scale</h3>
-                                <p>From laptops and servers to cloud platforms and storage, Digiroc delivers the technology foundation enterprises need to modernize and grow across Africa.</p>
+                                <h3>Investment Solutions That Drive Growth</h3>
+                                <p>From wealth management to strategic capital solutions, Vermont Capital Partners delivers the financial expertise and diversified portfolio approach clients need to achieve their goals across South Africa.</p>
                             </div>
 
                             <div className="tag-share">
                                 <div className="tag">
                                     Tags: &nbsp;
                                     <ul>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">IT Distribution</Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Cloud</Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Storage</Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Enterprise</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Investment</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Wealth Management</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Portfolio</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Financial Advisory</Link></li>
                                     </ul>
                                 </div>
                                 <div className="share">
@@ -70,8 +70,8 @@ const BlogSingle = (props) => {
                                     <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa" target="_blank"><img src={blog6} alt="" /></Link>
                                 </div>
                                 <div className="author-content">
-                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa" className="author-name">Author: Digiroc Technologies</Link>
-                                    <p>We share practical guidance on IT distribution, enterprise platforms, and infrastructure strategy for organizations across Africa.</p>
+                                    <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa" className="author-name">Author: Vermont Capital Partners</Link>
+                                    <p>We share practical guidance on investment strategy, wealth management, and portfolio optimization for individuals and organizations across South Africa.</p>
                                     <div className="socials">
                                         <ul className="social-link">
                                             <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa"><i className="ti-facebook"></i></Link></li>
@@ -112,7 +112,7 @@ const BlogSingle = (props) => {
                                                                 At 9.00am</span></h4>
                                                         </div>
                                                         <div className="comment-area">
-                                                            <p>Great service and timely delivery from Digiroc. The rollout was smooth and well supported.</p>
+                                                            <p>Excellent strategic guidance and comprehensive wealth management from Vermont Capital Partners. The investment approach was well-structured and highly professional.</p>
                                                             <div className="comments-reply">
                                                                 <Link className="comment-reply-link" to="/blog-single/Building-resilient-it-supply-chains-in-africa"><span>Reply</span></Link>
                                                             </div>

@@ -71,17 +71,17 @@ const TeamSinglePage = (props) => {
                                 </div>
                                 <div className="team-details">
                                     <h2>About Me</h2>
-                                    <p>I support enterprise customers with hardware sourcing, cloud enablement, and infrastructure delivery across Africa. My focus is ensuring reliable supply, secure deployment, and long-term support for critical business systems.</p>
+                                    <p>I support clients with strategic investment planning, wealth management, and portfolio optimization across South Africa. My focus is ensuring sound financial strategies, risk management, and long-term wealth creation for our valued clients.</p>
                                     <h2>Experience</h2>
-                                    <p>10+ years across IT distribution, infrastructure delivery, and enterprise platform rollouts including Microsoft, Azure, AWS, storage, networking, and security solutions.</p>
+                                    <p>10+ years across investment management, portfolio optimization, and wealth advisory services including strategic capital allocation, financial planning, risk management, and comprehensive wealth solutions.</p>
                                     <h2>Certifications</h2>
-                                    <p>Industry certifications across enterprise platforms, infrastructure, and security with a focus on large-scale deployments and operations.</p>
+                                    <p>Professional certifications across financial planning, investment management, and wealth advisory with a focus on portfolio optimization and strategic capital solutions.</p>
                                     <h2>Achievements</h2>
                                     <ul>
-                                        <li>- Delivered enterprise hardware rollouts across multiple regions</li>
-                                        <li>- Implemented cloud and productivity solutions for hybrid teams</li>
-                                        <li>- Built reliable vendor supply chains and delivery SLAs</li>
-                                        <li>- Improved uptime and lifecycle support for critical systems</li>
+                                        <li>- Delivered successful investment strategies across multiple sectors</li>
+                                        <li>- Implemented comprehensive wealth management solutions for high-net-worth clients</li>
+                                        <li>- Built diversified portfolios with strong risk-adjusted returns</li>
+                                        <li>- Improved client financial outcomes through strategic advisory services</li>
                                     </ul>
                                     <h2>Skills</h2>
                                     <div className="skills">

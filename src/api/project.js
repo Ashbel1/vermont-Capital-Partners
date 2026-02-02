@@ -25,7 +25,7 @@ const Projects = [
       pImg:pimg3,
       title:'Digital Transformation Suite',  
       slug:'Digital-Transformation-Suite',  
-      subTitle:'Digiroc Technologies',   
+      subTitle:'Technology Solutions',   
    },
     {
        Id:'4',
@@ -46,7 +46,7 @@ const Projects = [
       pImg:pimg6,
       title:'Enterprise Technology Solutions', 
       slug:'Enterprise-Technology-Solutions', 
-      subTitle:'Digiroc Technologies',    
+      subTitle:'Technology Solutions',    
    },
 ]
 

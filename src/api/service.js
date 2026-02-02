@@ -59,18 +59,18 @@ const Services = [
     {
         Id: '3',
         sImg:simg3,
-        sTitle: 'Vermont Capital Partners',
-        slug:'Vermont-Capital-Partners',
-        description:'Leading investment holding company with Digiroc Technologies as our technology solutions division, delivering cutting-edge IT infrastructure, data management, and business intelligence services.',
-        des2:'Through Digiroc Technologies, we provide enterprise IT distribution and advanced data analytics, empowering businesses with technology solutions that drive digital transformation and operational excellence across South Africa.',
-        des3:'Your trusted partner for comprehensive technology solutions, storage infrastructure, and data-driven insights through our Digiroc Technologies division.',
+        sTitle: 'Digiroc Technologies',
+        slug:'Digiroc-Technologies',
+        description:'Enterprise IT distribution and technology solutions provider delivering cutting-edge infrastructure, data management, and business intelligence services across Africa.',
+        des2:'Digiroc Technologies provides enterprise IT distribution, cloud enablement, and advanced data analytics, empowering businesses with technology solutions that drive digital transformation and operational excellence.',
+        des3:'Your trusted partner for comprehensive technology solutions, storage infrastructure, and data-driven insights.',
         icon:'flaticon-chip',
         subBranches: [
             {
-                name: 'IT & Enterprise Solutions',
+                name: 'IT Distribution & Enterprise Solutions',
                 slug: 'IT-Enterprise-Solutions',
                 description: 'Complete technology infrastructure and enterprise systems',
-                services: ['IT Distribution', 'Enterprise Solutions', 'Data Storage Solutions'],
+                services: ['Hardware Distribution', 'Enterprise Solutions', 'Cloud Platforms', 'Data Storage Solutions'],
                 icon: 'flaticon-server'
             },
             {

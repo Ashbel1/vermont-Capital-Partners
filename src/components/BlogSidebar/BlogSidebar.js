@@ -60,15 +60,15 @@ const BlogSidebar = (props) => {
                 <div className="widget tag-widget">
                     <h3>Tags</h3>
                     <ul>
-                        <li><Link onClick={ClickHandler} to="/blog">IT Distribution</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Cloud</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Microsoft 365</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Azure</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">AWS</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Storage</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Networking</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Security</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Enterprise</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Investment</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Wealth Management</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Portfolio</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Capital Solutions</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Financial Planning</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Market Insights</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Risk Management</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Asset Allocation</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Strategic Advisory</Link></li>
                     </ul>
                 </div>
             </div>

@@ -14,9 +14,9 @@ const ServiceSection = () => {
                 <div className="row">
                     <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section-title-s3">
-                            <span>Our Partner Companies</span>
-                            <h2>Vermont Capital Partners Portfolio</h2>
-                            <p>Vermont Capital Partners is proud to represent a diverse portfolio of industry-leading companies. Each partner company brings specialized expertise and innovative solutions to their respective sectors, driving growth and creating value across South Africa and beyond.</p>
+                            <span>Our Portfolio Companies</span>
+                            <h2>Strategic Business Partners</h2>
+                            <p>Vermont Capital Partners manages a diverse portfolio of industry-leading companies. Each portfolio company brings specialized expertise and innovative solutions to their respective sectors, driving growth and creating value across South Africa and beyond.</p>
                         </div>
                     </div>
                 </div>

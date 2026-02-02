@@ -48,7 +48,7 @@ const ProductTabs = (props) => {
                             <Row>
                                 <Col sm="12">
                                     <div id="Schedule">
-                                    <p>Digiroc Technologies provides enterprise IT distribution and solutions across Africa, delivering hardware, software, cloud platforms, and infrastructure services with reliable logistics and support.</p>
+                                    <p>Vermont Capital Partners provides comprehensive investment management and financial advisory services across South Africa, delivering wealth management, capital solutions, and strategic investment opportunities through our diversified portfolio including automotive, infrastructure, and technology sectors.</p>
                                     <p>We work closely with enterprise customers to ensure secure deployment, licensing compliance, and long‑term lifecycle support across all environments.</p>
                                     </div>
                                 </Col>
@@ -80,7 +80,7 @@ const ProductTabs = (props) => {
                                             </div>
                                         </div>
                                         <div className="review-body">
-                                            <p>Digiroc delivered our hardware rollout on time with excellent support and smooth procurement coordination.</p>
+                                            <p>Vermont Capital Partners delivered exceptional investment strategy and portfolio management with outstanding advisory support and professional wealth management coordination.</p>
                                         </div>
                                     </div>
                                 </div>

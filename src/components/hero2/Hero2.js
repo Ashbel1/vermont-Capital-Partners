@@ -27,10 +27,10 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Enterprise IT Distribution Across Africa</h2>
+                                <h2>Strategic Investment Management Across South Africa</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Reliable supply of hardware and software with vendor-authorized logistics and lifecycle support.</p>
+                                <p>Comprehensive wealth management and portfolio optimization with proven expertise and professional advisory support.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
@@ -43,10 +43,10 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Cloud & Enterprise Platforms</h2>
+                                <h2>Diversified Portfolio Solutions</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Azure, AWS, Microsoft 365, and infrastructure solutions delivered with secure deployment.</p>
+                                <p>Multi-sector investments across automotive, infrastructure, and technology with strategic capital allocation.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
@@ -59,10 +59,10 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero3})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Storage, Security & Infrastructure</h2>
+                                <h2>Wealth Advisory & Capital Solutions</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Data protection, backup, networking, and security services built for enterprise resilience.</p>
+                                <p>Financial planning, risk management, and capital advisory services built for sustainable wealth creation.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">

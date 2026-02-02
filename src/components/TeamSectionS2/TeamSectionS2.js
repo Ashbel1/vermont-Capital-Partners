@@ -21,7 +21,7 @@ const TeamSectionS2 = (props) => {
                     </div>
                     <div className="col col-lg-6 col-12">
                         <div className="title-text">
-                            <p>Our team delivers enterprise IT distribution, cloud enablement, and infrastructure services with reliable logistics and support.</p>
+                            <p>Our team delivers strategic investment management, wealth advisory, and comprehensive financial solutions with professional expertise and dedication.</p>
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@ const PartnerSection = (props) => {
                             <h2>Invest in Growth,<br/>Innovation & Excellence</h2>
                         </div>
                         <div className="cta-text">
-                            <p>Vermont Capital Partners connects visionary investors with high-performing companies across automotive, investment, and technology sectors. Through our partner companies including Digiroc Technologies, we drive sustainable growth and value creation across South Africa.</p>
+                            <p>Vermont Capital Partners connects visionary investors with exceptional opportunities across diverse sectors. Through strategic portfolio management, comprehensive wealth advisory, and deep market expertise, we drive sustainable growth and create lasting value across South Africa.</p>
                             <Link onClick={ClickHandler} to="/contact" className="theme-btn-s2">Get In Touch</Link>
                         </div>
                     </div>

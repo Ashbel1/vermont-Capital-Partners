@@ -23,21 +23,21 @@ const MissionVission = () => {
                                     <img src={abimg1} alt="" />
                                 </div>
                                 <h3>Our Mission</h3>
-                                <p>Enable enterprises with dependable access to hardware, software, cloud platforms, and infrastructure that keep operations secure, connected, and productive.</p>
+                                <p>Empower clients with strategic investment solutions, comprehensive wealth management, and capital advisory services that create sustainable financial success and lasting value.</p>
                             </div>
                             <div className="grid">
                                 <div className="img-holder">
                                     <img src={abimg2} alt="" />
                                 </div>
                                 <h3>Our Vision</h3>
-                                <p>Be the most trusted enterprise IT distributor and solutions partner for organizations modernizing across Africa.</p>
+                                <p>Be the most trusted investment and wealth management partner for individuals and organizations building financial prosperity across South Africa.</p>
                             </div>
                             <div className="grid">
                                 <div className="img-holder">
                                     <img src={abimg3} alt="" />
                                 </div>
                                 <h3>Our Approach</h3>
-                                <p>We combine vendor partnerships, technical expertise, and delivery excellence to provide end-to-end enterprise solutions from procurement to support.</p>
+                                <p>We combine market expertise, portfolio diversification, and strategic partnerships to provide end-to-end financial solutions from planning to wealth optimization.</p>
                             </div>
                         </div>
                     </div>

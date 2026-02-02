@@ -22,7 +22,7 @@ const TeamSection = (props) => {
                             <div className="video-holder">
                                 <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See how Vermont Capital delivers value</span></button>
                             </div>
-                            <h3>We deliver enterprise IT distribution, cloud enablement, and infrastructure services across Africa</h3>
+                            <h3>We deliver strategic investment management, wealth advisory, and comprehensive financial solutions across South Africa</h3>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const TeamSection = (props) => {
                         </div>
                         <div className="col col-lg-6 col-12">
                             <div className="title-text">
-                                <p>Our team brings hands-on expertise in IT distribution, enterprise platforms, storage, networking, and deployment support to keep your organization running reliably.</p>
+                                <p>Our team brings hands-on expertise in investment management, portfolio optimization, wealth advisory, financial planning, and strategic capital solutions to help you achieve your financial objectives.</p>
                             </div>
                         </div>
                     </div>

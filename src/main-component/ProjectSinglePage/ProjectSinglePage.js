@@ -44,15 +44,15 @@ const ProjectSinglePage = (props) => {
                                     <div className="project-info">
                                         <ul>
                                             <li><span>Client:</span> Enterprise Customer</li>
-                                            <li><span>Location:</span> Harare, Zimbabwe</li>
+                                            <li><span>Location:</span> Cape Town, South Africa</li>
                                             <li><span>Status:</span> Completed</li>
                                             <li><span>Duration:</span> 6 Weeks</li>
-                                            <li><span>Tags:</span> IT Distribution, Infrastructure</li>
+                                            <li><span>Tags:</span> Investment Strategy, Portfolio Management</li>
                                         </ul>
                                     </div>
-                                    <h2>Enterprise Hardware Rollout</h2>
-                                    <p>Digiroc delivered a large‑scale hardware and software rollout for a multi‑site enterprise, covering laptops, desktops, servers, networking, and storage. The project included procurement, logistics coordination, and on‑site deployment support.</p>
-                                    <p>Our team ensured vendor‑authorized sourcing, compliance with enterprise standards, and a structured deployment plan that minimized downtime while improving performance and reliability.</p>
+                                    <h2>Strategic Investment Portfolio Development</h2>
+                                    <p>Vermont Capital Partners delivered a comprehensive investment strategy and portfolio optimization for an enterprise client, covering asset allocation, risk management, and diversification across multiple sectors. The project included thorough financial analysis, strategic planning, and ongoing portfolio management support.</p>
+                                    <p>Our team ensured regulatory compliance, alignment with client objectives, and a structured investment plan that maximized returns while managing risk effectively.</p>
 
                                     <div className="challange-solution-section">
                                         <div className="theme-accordion-s1">
@@ -66,10 +66,10 @@ const ProjectSinglePage = (props) => {
                                                 </AccordionSummary>
                                                 <AccordionDetails>
                                                     <Typography>
-                                                        <p>The client needed a fast, secure rollout across multiple sites with strict timelines, procurement controls, and warranty coverage.</p>
+                                                        <p>The client needed a comprehensive investment strategy with diversified portfolio allocation, strict risk management controls, and regulatory compliance.</p>
                                                         <ul>
-                                                            <li><i className="ti-check"></i>Coordinating multi‑site delivery and installation</li>
-                                                            <li><i className="ti-check"></i>Ensuring compliance, licensing, and asset tracking</li>
+                                                            <li><i className="ti-check"></i>Coordinating multi-sector investment allocation</li>
+                                                            <li><i className="ti-check"></i>Ensuring compliance, risk management, and performance tracking</li>
                                                         </ul>
                                                     </Typography>
                                                 </AccordionDetails>
@@ -84,10 +84,10 @@ const ProjectSinglePage = (props) => {
                                                 </AccordionSummary>
                                                 <AccordionDetails>
                                                     <Typography>
-                                                    <p>Digiroc provided vendor‑authorized sourcing, staged logistics, and a deployment team to execute the rollout with minimal disruption.</p>
+                                                    <p>Vermont Capital Partners provided comprehensive financial analysis, strategic portfolio construction, and ongoing wealth management to execute the investment plan with exceptional results.</p>
                                                             <ul>
-                                                                <li><i className="ti-check"></i>Hardware, software, and licensing delivered on schedule</li>
-                                                                <li><i className="ti-check"></i>Post‑deployment support and warranty management</li>
+                                                                <li><i className="ti-check"></i>Diversified portfolio strategy delivered on objectives</li>
+                                                                <li><i className="ti-check"></i>Ongoing advisory support and performance monitoring</li>
                                                             </ul>
                                                     </Typography>
                                                 </AccordionDetails>

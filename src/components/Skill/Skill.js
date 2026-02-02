@@ -53,7 +53,7 @@ const Skill = (props) => {
                         <div className="wpo-skill-text">
                             <h5>Our Professional Skill’s</h5>
                             <h2>Professional Excellence of <span>Vermont Capital Partners.</span></h2>
-                            <p>Vermont Capital Partners brings together exceptional expertise across investment management, automotive trading, infrastructure development, financial services, and technology solutions. Our portfolio companies including TRES AUTO GROUP, Toughrock Investments, and Digiroc Technologies enable us to provide comprehensive strategic solutions and deliver outstanding value to partners and investors across South African markets.</p>
+                            <p>Vermont Capital Partners brings together exceptional expertise across investment management, wealth advisory, capital markets, and strategic portfolio optimization. Our proven track record in managing diverse investments across automotive, infrastructure, and technology sectors enables us to provide comprehensive financial solutions and deliver outstanding value to our clients and investors throughout South Africa.</p>
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1 col-md-12 col-12">

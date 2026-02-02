@@ -4,25 +4,25 @@ import CountUp from 'react-countup';
 const funFact = [
     {
         title: '10',
-        subTitle: 'Years in IT distribution',
+        subTitle: 'Years in investment management',
         Symbol: '+',
         icon: 'fi flaticon-diamond',
     },
     {
         title: '200',
-        subTitle: 'Enterprise clients served',
+        subTitle: 'Successful investments',
         Symbol: '+',
         icon: 'fi flaticon-happy',
     },
     {
         title: '50',
-        subTitle: 'Vendor partnerships',
+        subTitle: 'Strategic partnerships',
         Symbol: '+',
         icon: 'fi flaticon-projector',
     },
     {
         title: '15',
-        subTitle: 'Markets supported',
+        subTitle: 'Portfolio companies',
         Symbol: '+',
         icon: 'fi flaticon-medal',
     },

@@ -11,8 +11,8 @@ const Testimonial = (prop) => {
                 <div className="row justify-content-center">
                     <div className="col col-xl-8 col-lg-10">
                         <div className="testimonials-area">
-                            <p>Vermont Capital Partners has been instrumental in our business growth. Through their diverse portfolio including Digiroc Technologies, TRES AUTO GROUP, and Toughrock Investments, they provide comprehensive solutions that deliver real value. Their strategic vision and professional approach make them an outstanding partner.</p>
-                            <span className="quoter">IT Operations Lead</span>
+                            <p>Vermont Capital Partners has been instrumental in our business growth. Their strategic investment approach, comprehensive wealth management services, and professional portfolio expertise deliver real value. Their commitment to excellence and deep market knowledge make them an outstanding partner for achieving financial success.</p>
+                            <span className="quoter">Chief Financial Officer</span>
                         </div>
                     </div>
                 </div>

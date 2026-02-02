@@ -11,8 +11,8 @@ const Contactpage = () => {
                     <div className="col col-lg-8">
                         <div className="section-title-s3">
                             <span>Contact us</span>
-                            <h2>Talk to our enterprise team</h2>
-                            <p>Tell us what hardware, software, or cloud solutions you need.</p>
+                            <h2>Talk to our investment advisory team</h2>
+                            <p>Tell us about your wealth management goals and investment objectives.</p>
                         </div>
                     </div>
                 </div>

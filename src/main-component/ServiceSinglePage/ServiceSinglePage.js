@@ -39,8 +39,8 @@ const ServiceSinglePage = (props) => {
                                     <img src={ServiceDetails.sImg} alt="" />
                                 </div>
                                 <h2>{ServiceDetails.sTitle}</h2>
-                                <p>Digiroc delivers enterprise-grade IT distribution and solutions tailored to your operational needs. We provide reliable access to hardware, software, and cloud platforms while ensuring secure deployment, compliance, and ongoing support.</p>
-                                <p>From procurement to rollout, we coordinate vendor partnerships, licensing, logistics, and implementation so your teams can operate without disruption.</p>
+                                <p>Vermont Capital Partners delivers comprehensive investment and financial advisory services tailored to your wealth management goals. With expertise across multiple sectors and a proven track record of success, we provide strategic solutions that maximize returns while managing risk effectively.</p>
+                                <p>From investment planning to portfolio management, we coordinate strategic partnerships and deliver integrated solutions so your financial objectives are met with excellence and professionalism.</p>
 
                                 <h3>Enterprise Delivery Capabilities</h3>
                                 <p>We cover sourcing, logistics, architecture, deployment, and lifecycle services to keep your technology stack secure, scalable, and available.</p>

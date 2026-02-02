@@ -24,14 +24,14 @@ const About3 = (props) => {
                         </div>
                         <div className="col-xl-5 col-lg-6 col-md-12 col-12">
                             <div className="wpo-about-text">
-                                <h4>Welcome To Digiroc</h4>
-                                <h2>Your trusted enterprise IT distribution partner.</h2>
-                                <p>Digiroc Technologies provides hardware and software distribution, cloud enablement, and infrastructure services across Africa. We help enterprises deploy reliable, secure, and scalable technology.</p>
+                                <h4>Welcome To Vermont Capital Partners</h4>
+                                <h2>Your trusted investment and wealth management partner.</h2>
+                                <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, wealth management, and capital advisory services, specializing in building and managing diversified portfolios across multiple high-growth sectors.</p>
                                 <div className="text-sub-wrap">
                                     <div className="text-sub-item">
                                         <i className="fi flaticon-tax"></i>
-                                        <h5>End‑to‑end enterprise supply
-                                            and deployment support.</h5>
+                                        <h5>Comprehensive investment strategies
+                                            and portfolio management.</h5>
                                     </div>
                                 </div>
                                 <Link onClick={ClickHandler} className="theme-btn" to="/services">Our Services</Link>

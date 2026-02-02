@@ -19,22 +19,22 @@ const WorkProcess = (props) => {
                                 <div className="icon">
                                     <i className="fi flaticon-idea"></i>
                                 </div>
-                                <h3>01. Assess & Design</h3>
-                                <p>We understand your requirements and design the right enterprise architecture and stack.</p>
+                                <h3>01. Assess & Strategy</h3>
+                                <p>We understand your financial goals and design the right investment strategy and portfolio allocation.</p>
                             </div>
                             <div className="grid">
                                 <div className="icon">
                                     <i className="fi flaticon-diamond"></i>
                                 </div>
-                                <h3>02. Source & Supply</h3>
-                                <p>Procure, license, and distribute hardware and software through trusted vendor networks.</p>
+                                <h3>02. Invest & Optimize</h3>
+                                <p>Execute strategic investments and manage portfolio diversification through proven financial frameworks.</p>
                             </div>
                             <div className="grid">
                                 <div className="icon">
                                     <i className="fi flaticon-sheriff"></i>
                                 </div>
-                                <h3>03. Deploy & Support</h3>
-                                <p>Deploy, secure, and support infrastructure with lifecycle services and monitoring.</p>
+                                <h3>03. Monitor & Grow</h3>
+                                <p>Continuous wealth management, performance monitoring, and advisory services for sustained growth.</p>
                             </div>
                         </div>
                     </div>

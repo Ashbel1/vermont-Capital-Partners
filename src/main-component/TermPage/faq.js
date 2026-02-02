@@ -34,11 +34,11 @@ const FAQ = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography className={classes.heading}>What products does Digiroc distribute?</Typography>
+                                <Typography className={classes.heading}>What services does Vermont Capital Partners offer?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                   We distribute laptops, desktops, servers, networking, storage, accessories, and enterprise software through authorized vendor channels across Africa.
+                                   Vermont Capital Partners provides investment management, wealth advisory, capital solutions, and strategic financial services through our diversified portfolio including automotive, infrastructure, and technology sectors.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -48,11 +48,11 @@ const FAQ = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography className={classes.heading}>Do you support cloud and Microsoft licensing?</Typography>
+                                <Typography className={classes.heading}>Does Vermont Capital Partners offer specialized financial services?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We provide Azure, AWS, and Microsoft 365 licensing and implementation with governance, security, and compliance guidance.
+                                    Yes. We provide tailored investment strategies, capital advisory, wealth management, and access to diverse investment opportunities through our multi-sector portfolio approach.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -62,12 +62,12 @@ const FAQ = (props) => {
                                 aria-controls="panel3bh-content"
                                 id="panel3bh-header"
                             >
-                                <Typography className={classes.heading}>What IT distribution services does Digiroc offer?</Typography>
+                                <Typography className={classes.heading}>What portfolio companies does Vermont Capital Partners manage?</Typography>
                 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We handle vendor sourcing, procurement, logistics, delivery, warranty management, and lifecycle support for enterprise customers.
+                                    We manage a diversified portfolio across automotive, infrastructure, and technology sectors, including leading companies in vehicle trading, construction development, and enterprise IT solutions, providing comprehensive strategic services across multiple industries.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -77,11 +77,11 @@ const FAQ = (props) => {
                                 aria-controls="panel4bh-content"
                                 id="panel4bh-header"
                             >
-                                <Typography className={classes.heading}>How does Digiroc support enterprise deployments?</Typography>
+                                <Typography className={classes.heading}>How does Vermont Capital Partners support investment strategies?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We provide architecture design, deployment teams, project coordination, and post‑deployment support to keep enterprise environments secure and reliable.
+                                    We provide comprehensive investment planning, portfolio optimization, strategic advisory services, and ongoing wealth management support to help clients achieve their financial objectives with confidence.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
