@@ -38,16 +38,17 @@ const Header2 = (props) => {
                                 <Link onClick={ClickHandler} to="/services">Services</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/services">All Services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/IT-Distribution">IT Distribution & Supply Chain</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Enterprise-Cloud">Enterprise Cloud & Productivity</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Data-Storage-Infrastructure">Data Storage & Infrastructure</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/Automotive-Trading">Automotive Trading</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/Toughrock-Investments">Toughrock Investments</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/Digiroc-Technologies">Digiroc Technologies</Link></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
                                 <Link onClick={ClickHandler} to="/projects">Projects</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/projects">All Projects</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/project-single/Enterprise-Hardware-Rollout">Featured Project</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/project-single/Automotive-Excellence-Initiative">Automotive Excellence Initiative</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/project-single/Digital-Transformation-Suite">Digital Transformation Suite</Link></li>
                                 </ul>
                             </li>
                             <li>
