@@ -71,7 +71,7 @@ const TeamSinglePage = (props) => {
                                 </div>
                                 <div className="team-details">
                                     <h2>About Me</h2>
-                                    <p>I support clients with strategic investment planning, wealth management, and portfolio optimization across South Africa. My focus is ensuring sound financial strategies, risk management, and long-term wealth creation for our valued clients.</p>
+                                    <p>I support clients with strategic investment planning, investment management, and portfolio optimization across South Africa. My focus is ensuring sound financial strategies, risk management, and long-term wealth creation for our valued clients.</p>
                                     <h2>Experience</h2>
                                     <p>10+ years across investment management, portfolio optimization, and wealth advisory services including strategic capital allocation, financial planning, risk management, and comprehensive wealth solutions.</p>
                                     <h2>Certifications</h2>
@@ -79,7 +79,7 @@ const TeamSinglePage = (props) => {
                                     <h2>Achievements</h2>
                                     <ul>
                                         <li>- Delivered successful investment strategies across multiple sectors</li>
-                                        <li>- Implemented comprehensive wealth management solutions for high-net-worth clients</li>
+                                        <li>- Implemented comprehensive investment management solutions for high-net-worth clients</li>
                                         <li>- Built diversified portfolios with strong risk-adjusted returns</li>
                                         <li>- Improved client financial outcomes through strategic advisory services</li>
                                     </ul>

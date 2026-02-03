@@ -23,7 +23,7 @@ const Footer = (props) => {
                                         <img src={Logo} alt="Vermont Capital Partners" />
                                     </Link>
                                 </div>
-                                <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, wealth management, and capital advisory services tailored to your success.</p>
+                                <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, investment management, and capital advisory services tailored to your success.</p>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">

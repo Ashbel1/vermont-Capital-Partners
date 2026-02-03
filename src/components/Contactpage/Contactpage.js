@@ -12,7 +12,7 @@ const Contactpage = () => {
                         <div className="section-title-s3">
                             <span>Contact us</span>
                             <h2>Talk to our investment advisory team</h2>
-                            <p>Tell us about your wealth management goals and investment objectives.</p>
+                            <p>Tell us about your investment management goals and investment objectives.</p>
                         </div>
                     </div>
                 </div>

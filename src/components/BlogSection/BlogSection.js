@@ -20,7 +20,7 @@ const BlogSection = () => {
                     </div>
                     <div className="col col-lg-6 col-12">
                         <div className="section-title-text">
-                            <p>Stay informed on investment opportunities, market trends, wealth management strategies, portfolio optimization, and financial best practices across South African markets.</p>
+                            <p>Stay informed on investment opportunities, market trends, investment management strategies, portfolio optimization, and financial best practices across South African markets.</p>
                         </div>
                     </div>
                 </div>

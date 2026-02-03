@@ -34,7 +34,7 @@ const WorkProcess = (props) => {
                                     <i className="fi flaticon-sheriff"></i>
                                 </div>
                                 <h3>03. Monitor & Grow</h3>
-                                <p>Continuous wealth management, performance monitoring, and advisory services for sustained growth.</p>
+                                <p>Continuous investment management, performance monitoring, and advisory services for sustained growth.</p>
                             </div>
                         </div>
                     </div>

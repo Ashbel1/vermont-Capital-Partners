@@ -25,9 +25,7 @@ const TermPage = (props) => {
                                 </div>
                                 <div className="wpo-terms-text">
                                     <h2>Vermont Capital Partners Terms & Conditions</h2>
-                                    <p>Vermont Capital Partners provides investment management, financial advisory services, wealth management, and capital solutions through our diversified portfolio. The terms below outline how we engage with clients, deliver services, and support investment strategies.</p>
-                                    <p>All investment agreements, advisory services, and financial transactions are subject to regulatory compliance and agreed service levels. Portfolio management and investment strategies are governed by applicable financial regulations and client agreements.</p>
-
+                                <p>Vermont Capital Partners provides investment management, financial advisory services, investment management, and capital solutions through our diversified portfolio. The terms below outline how we engage with clients, deliver services, and support investment strategies.</p>
                                     <ul>
                                         <li>Use of this website and its content for business inquiries and procurement.</li>
                                         <li>Order confirmation, pricing, and delivery timelines agreed in writing.</li>

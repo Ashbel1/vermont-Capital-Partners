@@ -61,7 +61,7 @@ const BlogSidebar = (props) => {
                     <h3>Tags</h3>
                     <ul>
                         <li><Link onClick={ClickHandler} to="/blog">Investment</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Wealth Management</Link></li>
+                        <li><Link onClick={ClickHandler} to="/blog">Investment Management</Link></li>
                         <li><Link onClick={ClickHandler} to="/blog">Portfolio</Link></li>
                         <li><Link onClick={ClickHandler} to="/blog">Capital Solutions</Link></li>
                         <li><Link onClick={ClickHandler} to="/blog">Financial Planning</Link></li>

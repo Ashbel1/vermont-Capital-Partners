@@ -11,8 +11,8 @@ const Features = (props) => {
                                 <div className="icon">
                                     <i className="fi flaticon-sheriff"></i>
                                 </div>
-                                <h3>Wealth Management</h3>
-                                <p>Comprehensive wealth management solutions designed to preserve and grow your assets through strategic portfolio management.</p>
+                                <h3>Investment Management</h3>
+                                <p>Comprehensive investment management solutions designed to preserve and grow your assets through strategic portfolio management.</p>
                             </div>
                             <div className="grid">
                                 <div className="icon">

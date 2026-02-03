@@ -30,7 +30,7 @@ const Hero2 = () => {
                                 <h2>Strategic Investment Management Across South Africa</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Comprehensive wealth management and portfolio optimization with proven expertise and professional advisory support.</p>
+                                <p>Comprehensive investment management and portfolio optimization with proven expertise and professional advisory support.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">

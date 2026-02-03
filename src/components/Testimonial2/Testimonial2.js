@@ -28,7 +28,7 @@ const Testimonial2 = () => {
                                     <span className="quoter">Procurement Manager, Enterprise</span>
                                 </div>
                                 <div className="testimonials-area">
-                                    <p>The strategic investment guidance and wealth management expertise from Vermont Capital Partners helped us achieve our financial goals with confidence and professionalism.</p>
+                                    <p>The strategic investment guidance and investment management expertise from Vermont Capital Partners helped us achieve our financial goals with confidence and professionalism.</p>
                                     <span className="quoter">CFO, Financial Services</span>
                                 </div>
                             </Slider>

@@ -52,7 +52,7 @@ const FAQ = (props) => {
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Yes. We provide tailored investment strategies, capital advisory, wealth management, and access to diverse investment opportunities through our multi-sector portfolio approach.
+                                    Yes. We provide tailored investment strategies, capital advisory, investment management, and access to diverse investment opportunities through our multi-sector portfolio approach.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -81,7 +81,7 @@ const FAQ = (props) => {
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    We provide comprehensive investment planning, portfolio optimization, strategic advisory services, and ongoing wealth management support to help clients achieve their financial objectives with confidence.
+                                    We provide comprehensive investment planning, portfolio optimization, strategic advisory services, and ongoing investment management support to help clients achieve their financial objectives with confidence.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>

@@ -48,7 +48,7 @@ const ProductTabs = (props) => {
                             <Row>
                                 <Col sm="12">
                                     <div id="Schedule">
-                                    <p>Vermont Capital Partners provides comprehensive investment management and financial advisory services across South Africa, delivering wealth management, capital solutions, and strategic investment opportunities through our diversified portfolio including automotive, infrastructure, and technology sectors.</p>
+                                    <p>Vermont Capital Partners provides comprehensive investment management and financial advisory services across South Africa, delivering investment management, capital solutions, and strategic investment opportunities through our diversified portfolio including automotive, infrastructure, and technology sectors.</p>
                                     <p>We work closely with enterprise customers to ensure secure deployment, licensing compliance, and long‑term lifecycle support across all environments.</p>
                                     </div>
                                 </Col>
@@ -80,7 +80,7 @@ const ProductTabs = (props) => {
                                             </div>
                                         </div>
                                         <div className="review-body">
-                                            <p>Vermont Capital Partners delivered exceptional investment strategy and portfolio management with outstanding advisory support and professional wealth management coordination.</p>
+                                            <p>Vermont Capital Partners delivered exceptional investment strategy and portfolio management with outstanding advisory support and professional investment management coordination.</p>
                                         </div>
                                     </div>
                                 </div>

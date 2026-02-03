@@ -41,7 +41,7 @@ const BlogSingle = (props) => {
                                     <span className="quoter">- Vermont Capital Partners Advisory Team</span>
                                 </blockquote>
                                 <h3>Investment Solutions That Drive Growth</h3>
-                                <p>From wealth management to strategic capital solutions, Vermont Capital Partners delivers the financial expertise and diversified portfolio approach clients need to achieve their goals across South Africa.</p>
+                                <p>From investment management to strategic capital solutions, Vermont Capital Partners delivers the financial expertise and diversified portfolio approach clients need to achieve their goals across South Africa.</p>
                             </div>
 
                             <div className="tag-share">
@@ -49,7 +49,7 @@ const BlogSingle = (props) => {
                                     Tags: &nbsp;
                                     <ul>
                                         <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Investment</Link></li>
-                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Wealth Management</Link></li>
+                                        <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Investment Management</Link></li>
                                         <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Portfolio</Link></li>
                                         <li><Link to="/blog-single/Building-resilient-it-supply-chains-in-africa">Financial Advisory</Link></li>
                                     </ul>
@@ -71,7 +71,7 @@ const BlogSingle = (props) => {
                                 </div>
                                 <div className="author-content">
                                     <Link to="/blog-single/Building-resilient-it-supply-chains-in-africa" className="author-name">Author: Vermont Capital Partners</Link>
-                                    <p>We share practical guidance on investment strategy, wealth management, and portfolio optimization for individuals and organizations across South Africa.</p>
+                                    <p>We share practical guidance on investment strategy, investment management, and portfolio optimization for individuals and organizations across South Africa.</p>
                                     <div className="socials">
                                         <ul className="social-link">
                                             <li><Link to="/coming-soon"><i className="ti-facebook"></i></Link></li>
@@ -112,7 +112,7 @@ const BlogSingle = (props) => {
                                                                 At 9.00am</span></h4>
                                                         </div>
                                                         <div className="comment-area">
-                                                            <p>Excellent strategic guidance and comprehensive wealth management from Vermont Capital Partners. The investment approach was well-structured and highly professional.</p>
+                                                            <p>Excellent strategic guidance and comprehensive investment management from Vermont Capital Partners. The investment approach was well-structured and highly professional.</p>
                                                             <div className="comments-reply">
                                                                 <Link className="comment-reply-link" to="/blog-single/Building-resilient-it-supply-chains-in-africa"><span>Reply</span></Link>
                                                             </div>

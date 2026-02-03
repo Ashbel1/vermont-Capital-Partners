@@ -1,0 +1,188 @@
+.loading-shimmer-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.shimmer-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.shimmer-box {
+    background: linear-gradient(
+        90deg,
+        #f0f0f0 0%,
+        #e0e0e0 20%,
+        #f0f0f0 40%,
+        #f0f0f0 100%
+    );
+    background-size: 1000px 100%;
+    animation: shimmer 2s infinite linear;
+    border-radius: 4px;
+}
+
+/* Header Shimmer */
+.shimmer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.shimmer-logo {
+    width: 150px;
+    height: 50px;
+}
+
+.shimmer-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.shimmer-nav-item {
+    width: 80px;
+    height: 20px;
+}
+
+/* Hero Section Shimmer */
+.shimmer-hero {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 0 80px;
+}
+
+.shimmer-hero-content {
+    max-width: 600px;
+    width: 100%;
+}
+
+.shimmer-title {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.shimmer-subtitle {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 12px;
+}
+
+.shimmer-subtitle-short {
+    width: 70%;
+    height: 24px;
+    margin-bottom: 30px;
+}
+
+.shimmer-button {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+/* Content Cards Shimmer */
+.shimmer-content {
+    padding: 60px 80px;
+    background-color: #fff;
+}
+
+.shimmer-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shimmer-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.shimmer-card-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.shimmer-card-title {
+    width: 80%;
+    height: 24px;
+    margin-bottom: 12px;
+}
+
+.shimmer-card-text {
+    width: 100%;
+    height: 16px;
+    margin-bottom: 8px;
+}
+
+.shimmer-card-text-short {
+    width: 60%;
+    height: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .shimmer-header {
+        padding: 15px 20px;
+    }
+
+    .shimmer-nav {
+        display: none;
+    }
+
+    .shimmer-hero {
+        height: 400px;
+        padding: 0 20px;
+    }
+
+    .shimmer-content {
+        padding: 40px 20px;
+    }
+
+    .shimmer-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Fade Out Animation */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.loading-shimmer-container.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
