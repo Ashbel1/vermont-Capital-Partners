@@ -10,204 +10,76 @@ const menus = [
         id: 1,
         title: 'Home',
         link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home Default',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/home-2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/home-3'
-            },
-            {
-                id: 14,
-                title: 'Home static hero',
-                link: '/home-4'
-            },
-            {
-                id: 15,
-                title: 'Home static hero box',
-                link: '/home-5'
-            },
-        ]
     },
-
+    {
+        id: 2,
+        title: 'About',
+        link: '/about',
+    },
     {
         id: 3,
-        title: 'Pages',
-        link: '/',
-        submenu: [
-            {
-                id: 31,
-                title: 'About',
-                link: '/about'
-            },
-            {
-                id: 3222,
-                title: 'Contact',
-                link: '/contact'
-            },
-            {
-                id: 322,
-                title: 'Testimonials',
-                link: '/testimonials'
-            },
-            {
-                id: 34,
-                title: 'Team',
-                link: '/team'
-            },
-            {
-                id: 3454,
-                title: 'Team Single',
-                link: '/team-single/Morkal-Akunda'
-            },
-            {
-                id: 36,
-                title: '404',
-                link: '/404'
-            }
-        ]
-    },
-    {
-        id: 4,
-        title: 'Shop',
-        link: '/shop',
-        submenu: [
-            {
-                id: 41,
-                title: 'Shop',
-                link: '/shop',
-            },
-            {
-                id: 42,
-                title: 'Shop Single',
-                link: '/product-single/Blue-Striped-Shoes'
-            },
-            {
-                id: 43,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 44,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-        ]
-    },
-
-    {
-        id: 6,
         title: 'Services',
         link: '/services',
         submenu: [
             {
-                id: 61,
+                id: 31,
                 title: 'All Services',
                 link: '/services',
             },
             {
-                id: 62,
-                title: 'Solutions Grid',
-                link: '/services-s2'
+                id: 32,
+                title: 'Automotive Trading',
+                link: '/service-single/Automotive-Trading'
             },
             {
-                id: 625,
-                title: 'Service Highlights',
-                link: '/service-s3'
+                id: 33,
+                title: 'Toughrock Investments',
+                link: '/service-single/Toughrock-Investments'
             },
             {
-                id: 63,
-                title: 'IT Distribution & Supply Chain',
-                link: '/service-single/IT-Distribution'
-            },
-            {
-                id: 64,
-                title: 'Enterprise Cloud & Productivity',
-                link: '/service-single/Enterprise-Cloud'
-            },
-            {
-                id: 64,
-                title: 'Data Storage & Infrastructure',
-                link: '/service-single/Data-Storage-Infrastructure'
+                id: 34,
+                title: 'Digiroc Technologies',
+                link: '/service-single/Digiroc-Technologies'
             },
         ]
     },
     {
-        id: 7,
+        id: 4,
         title: 'Projects',
         link: '/projects',
         submenu: [
             {
-                id: 71,
-                title: 'Deployments',
+                id: 41,
+                title: 'All Projects',
                 link: '/projects'
             },
             {
-                id: 72,
-                title: 'Deployment Grid',
-                link: '/projects-s2'
+                id: 42,
+                title: 'Automotive Excellence Initiative',
+                link: '/project-single/Automotive-Excellence-Initiative'
             },
             {
-                id: 74,
-                title: 'Featured Deployment',
-                link: '/project-single/Enterprise-Hardware-Rollout'
+                id: 43,
+                title: 'Digital Transformation Suite',
+                link: '/project-single/Digital-Transformation-Suite'
             },
         ]
     },
-
     {
         id: 5,
-        title: 'Blog',
-        link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Insights',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Insights (Left)',
-                link: '/blog-left-sidebar'
-            },
-            {
-                id: 53,
-                title: 'Insights (Full)',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Featured Insight',
-                link: '/blog-single/Building-resilient-it-supply-chains-in-africa'
-            },
-            {
-                id: 55,
-                title: 'Featured Insight (Left)',
-                link: '/blog-single-left-sidebar/Building-resilient-it-supply-chains-in-africa'
-            },
-            {
-                id: 56,
-                title: 'Featured Insight (Full)',
-                link: '/blog-single-fullwidth/Building-resilient-it-supply-chains-in-africa'
-            },
-        ]
+        title: 'Team',
+        link: '/team',
     },
     {
-        id: 88,
+        id: 6,
+        title: 'Insights',
+        link: '/blog',
+    },
+    {
+        id: 7,
         title: 'Contact',
         link: '/contact',
-    }
-
-
+    },
 ]
 
 const MobileMenu = () => {

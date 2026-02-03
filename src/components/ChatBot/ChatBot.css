@@ -121,7 +121,25 @@
     flex-direction: column;
     overflow: hidden;
     cursor: default;
-    animation: slideInUp 0.4s ease-out;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    transform-origin: bottom right;
+    animation: expandFromCorner 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes expandFromCorner {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .chat-header {
@@ -131,7 +149,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: move;
 }
 
 .chat-header-info {
@@ -409,6 +426,29 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    /* Icon positioning for mobile */
+    .chatbot-icon {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .copilot-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .pulse-ring,
+    .pulse-ring-2 {
+        width: 55px;
+        height: 55px;
+    }
+    
+    /* Hide tooltip on mobile */
+    .chatbot-tooltip {
+        display: none;
+    }
+    
+    /* Full screen chat window on mobile */
     .chat-window {
         width: 100vw;
         height: 100vh;
@@ -416,9 +456,118 @@
         position: fixed;
         left: 0 !important;
         top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        z-index: 10000;
+        transform-origin: bottom right;
+        animation: expandFullscreen 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     
-    .chatbot-container {
-        position: fixed !important;
+    @keyframes expandFullscreen {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        60% {
+            transform: scale(1.02);
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    
+    .chat-header {
+        padding: 16px;
+        cursor: default;
+    }
+    
+    .chat-header h4 {
+        font-size: 15px;
+    }
+    
+    .status-text {
+        font-size: 11px;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .avatar svg {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .close-chat {
+        font-size: 32px;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .chat-messages {
+        padding: 15px;
+    }
+    
+    .message {
+        max-width: 85%;
+    }
+    
+    .message-content {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+    
+    .chat-input-form {
+        padding: 12px;
+    }
+    
+    .chat-input {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+    
+    .send-button {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .send-button svg {
+        width: 18px;
+        height: 18px;
     }
 }
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .chatbot-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .copilot-icon {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .pulse-ring,
+    .pulse-ring-2 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .chat-header {
+        padding: 14px;
+    }
+    
+    .chat-messages {
+        padding: 12px;
+    }
+    
+    .message-content {
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+}
+

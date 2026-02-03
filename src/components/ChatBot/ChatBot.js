@@ -26,11 +26,14 @@ const ChatBot = () => {
     };
 
     useEffect(() => {
-        // Set initial position (top right)
+        // Set initial position (directly above scroll-to-top green arrow button)
         const updatePosition = () => {
+            const isMobile = window.innerWidth <= 768;
+            // Green arrow is at: bottom: 25px, right: 30px, size: 45px (desktop) / 30px (mobile)
+            // Position chatbot above it with small gap, slightly to the left
             setPosition({
-                x: window.innerWidth - 450,
-                y: 100
+                x: isMobile ? window.innerWidth - 85 : window.innerWidth - 90,
+                y: isMobile ? window.innerHeight - 110 : window.innerHeight - 140
             });
         };
         
@@ -46,6 +49,9 @@ const ChatBot = () => {
     }, [messages]);
 
     const handleMouseDown = (e) => {
+        // Don't allow dragging when chat is open
+        if (isChatOpen) return;
+        
         // Allow dragging from chat header, prevent from messages/input area
         if (e.target.closest('.chat-messages') || e.target.closest('.chat-input-form')) return;
         
@@ -70,29 +76,31 @@ const ChatBot = () => {
         }
     }, [isDragging, dragStart.x, dragStart.y, position.x, position.y]);
 
-    const handleMouseUp = useCallback(() => {
-        setIsDragging(false);
-    }, []);
-
-    const handleClick = () => {
-        // Only open chat if it wasn't a drag (distance less than 5px)
-        if (dragDistance < 5 && !isChatOpen) {
-            setIsChatOpen(true);
-            // Send initial greeting after a brief delay
-            setTimeout(() => {
-                addBotMessage(botResponses.greeting);
-            }, 500);
-        }
-        setDragDistance(0);
-    };
-
-    const addBotMessage = (text) => {
+    const addBotMessage = useCallback((text) => {
         setIsTyping(true);
         setTimeout(() => {
             setMessages(prev => [...prev, { text, sender: 'bot', timestamp: new Date() }]);
             setIsTyping(false);
         }, 1000 + Math.random() * 1000); // Random delay for realistic typing
-    };
+    }, []);
+
+    const handleMouseUp = useCallback(() => {
+        const wasDragging = dragDistance >= 5;
+        setIsDragging(false);
+        
+        // Only open chat if it was a click, not a drag
+        if (!wasDragging && !isChatOpen && dragDistance < 5) {
+            setIsChatOpen(true);
+            setTimeout(() => {
+                addBotMessage(botResponses.greeting);
+            }, 500);
+        }
+        
+        // Reset drag distance after a short delay
+        setTimeout(() => {
+            setDragDistance(0);
+        }, 100);
+    }, [dragDistance, isChatOpen, botResponses.greeting, addBotMessage]);
 
     const addUserMessage = (text) => {
         setMessages(prev => [...prev, { text, sender: 'user', timestamp: new Date() }]);
@@ -164,7 +172,7 @@ const ChatBot = () => {
             >
                 {!isChatOpen ? (
                     <>
-                        <div className="chatbot-icon" onClick={handleClick}>
+                        <div className="chatbot-icon">
                             <svg
                                 viewBox="0 0 24 24"
                                 fill="none"
