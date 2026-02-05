@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../ContactFrom/ContactForm'
-import contactImg from '../../images/slider/one.jpg'
+import contactImg from '../../images/slider/slide-3.jpg'
 
 
 const ContactSection = () => {

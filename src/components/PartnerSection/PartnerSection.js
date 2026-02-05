@@ -1,9 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import pimg1 from '../../images/slider/one.jpg'
-import pimg2 from '../../images/slider/one.jpg'
-import pimg3 from '../../images/slider/one.jpg'
-import pimg4 from '../../images/slider/one.jpg'
 
 
 const PartnerSection = (props) => {
@@ -11,6 +7,30 @@ const PartnerSection = (props) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
+
+    const partnerFeatures = [
+        {
+            icon: 'flaticon-diamond',
+            title: 'Strategic Growth',
+            color: '#c5a47e'
+        },
+        {
+            icon: 'flaticon-stats',
+            title: 'Market Expertise',
+            color: '#8b7355'
+        },
+        {
+            icon: 'flaticon-idea',
+            title: 'Innovation Focus',
+            color: '#a68968'
+        },
+        {
+            icon: 'flaticon-sheriff',
+            title: 'Trusted Partnership',
+            color: '#b8956a'
+        }
+    ];
+
     return (
         <section className="cta-with-partners">
             <div className="container">
@@ -27,26 +47,34 @@ const PartnerSection = (props) => {
                     </div>
                     <div className="col col-lg-6 col-12">
                         <div className="partner-grids clearfix">
-                            <div className="grid">
-                                <div className="img-holder">
-                                    <img src={pimg1} alt=""/>
+                            {partnerFeatures.map((feature, index) => (
+                                <div className="grid" key={index}>
+                                    <div className="icon-holder" style={{
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        padding: '30px 20px',
+                                        height: '100%',
+                                        transition: 'all 0.3s ease'
+                                    }}>
+                                        <i className={`fi ${feature.icon}`} style={{
+                                            fontSize: '48px',
+                                            color: feature.color,
+                                            marginBottom: '15px',
+                                            transition: 'all 0.3s ease'
+                                        }}></i>
+                                        <h6 style={{
+                                            fontSize: '14px',
+                                            fontWeight: '600',
+                                            color: '#2c2c2c',
+                                            margin: '0',
+                                            textAlign: 'center',
+                                            lineHeight: '1.4'
+                                        }}>{feature.title}</h6>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="grid">
-                                <div className="img-holder">
-                                    <img src={pimg2} alt=""/>
-                                </div>
-                            </div>
-                            <div className="grid">
-                                <div className="img-holder">
-                                    <img src={pimg3} alt=""/>
-                                </div>
-                            </div>
-                            <div className="grid">
-                                <div className="img-holder">
-                                    <img src={pimg4} alt=""/>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </div>

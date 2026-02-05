@@ -1,6 +1,6 @@
-import simg from '../images/slider/one.jpg'
-import simg2 from '../images/slider/one.jpg'
-import simg3 from '../images/slider/one.jpg'
+import simg from '../images/service-single/img-1.jpg'
+import simg2 from '../images/service-single/img-3.jpg'
+import simg3 from '../images/service-single/img-4.jpg'
 
 
 const Services = [

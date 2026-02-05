@@ -49,9 +49,10 @@ const Header = (props) => {
                                     <li><Link onClick={ClickHandler} to="/project-single/Digital-Transformation-Suite">Digital Transformation Suite</Link></li>
                                 </ul>
                             </li>
-                            <li>
+                            {/* TEAM MENU ITEM COMMENTED OUT */}
+                            {/* <li>
                                 <Link onClick={ClickHandler} to="/team">Team</Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link onClick={ClickHandler} to="/blog">Insights</Link>
                             </li>

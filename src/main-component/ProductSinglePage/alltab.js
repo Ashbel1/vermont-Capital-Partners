@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
-import rv1 from '../../images/slider/one.jpg'
-import rv2 from '../../images/slider/one.jpg'
+import rv1 from '../../images/blog-details/comments-author/img-1.jpg'
+import rv2 from '../../images/blog-details/comments-author/img-2.jpg'
 
 
 
