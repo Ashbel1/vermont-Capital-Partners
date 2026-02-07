@@ -65,11 +65,11 @@ const menus = [
             },
         ]
     },
-    {
         id: 5,
         title: 'Team',
         link: '/team',
     },
+    // ...removed Team nav item...
     {
         id: 6,
         title: 'Insights',
