@@ -63,13 +63,9 @@ const menus = [
                 title: 'Digital Transformation Suite',
                 link: '/project-single/Digital-Transformation-Suite'
             },
-        ]
+        ],
     },
-        id: 5,
-        title: 'Team',
-        link: '/team',
-    },
-    // ...removed Team nav item...
+    // Team nav item removed
     {
         id: 6,
         title: 'Insights',

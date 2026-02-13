@@ -48,10 +48,7 @@ const AllRoute = () => {
           <Route path="projects" element={<ProjectPage />} />
           <Route path="projects-s2" element={<ProjectPageS2 />} />
           <Route path="project-single/:slug" element={<ProjectSinglePage />} />
-          {/* TEAM ROUTES COMMENTED OUT */}
-          {/* <Route path="team-single/:slug" element={<TeamSinglePage />} /> */}
           <Route path="testimonials" element={<TestimonialPage />} />
-          {/* <Route path="team" element={<TeamPage />} /> */}
           <Route path="shop" element={<ShopPage />} />
           <Route path='product-single/:slug' element={<ProductSinglePage />} />
           <Route path='cart' element={<CartPage />} />
