@@ -24,12 +24,12 @@ const About = (props) => {
                         <AnimatedSection direction="right" delay={0.2}>
                             <div className="section-title-s2">
                                 <span>About Vermont Capital Partners</span>
-                                <h2>Building Wealth Through Strategic Investment</h2>
+                                <h2>Building Wealth Through Strategic Investment in Southern Africa</h2>
                             </div>
                             <div className="about-content">
-                                <h4>Cape Town's Premier Investment & Capital Advisory Firm</h4>
-                                <p>Vermont Capital Partners is a leading financial services firm based in Cape Town, South Africa. We specialize in strategic investment management, capital advisory, investment management, and financial planning. Our mission is to deliver exceptional returns while building long-term partnerships with our clients. With deep expertise in the South African market and international investment opportunities, we provide personalized solutions tailored to your financial goals.</p>
-                                <h5>Phone: +27 68 804 3460 | Email: info@vermontcapitalpartners.com</h5>
+                                <h4>About Vermont Capital Partners</h4>
+                                <p>Vermont Capital Partners is an emerging Investment Company based in Harare and Cape Town. We specialize in strategic investment management, capital advisory, and financial planning. Our mission is to deliver exceptional returns while building long-term partnerships with our clients. With deep expertise in the Southern Africa market, mainly focused on Zimbabwe and Zambia, and international investment opportunities, we provide personalized solutions tailored to your financial goals.</p>
+                                
                             </div>
                         </AnimatedSection>
                     </div>

@@ -15,8 +15,9 @@ const About2 = (props) => {
                         </div>
                         <div className="about-content">
                             <h4>Strategic Vision. Exceptional Results.</h4>
-                            <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, investment management, and capital advisory services, specializing in building and managing diversified portfolios across multiple high-growth sectors.</p>
+                            <p>Vermont Capital Partners is an emerging Investment Company based in Harare and Cape Town. We deliver strategic investment solutions, investment management, and capital advisory services, specializing in building and managing diversified portfolios across multiple high-growth sectors in Southern Africa, mainly focused on Zimbabwe and Zambia.</p>
                             <h5>Phone: +27 68 804 3460, Email: info@vermontcapitalpartners.com</h5>
+                            <h5>Zimbabwe Office: 59 Ridgeway North, Highlands, Harare, Zimbabwe | Phone: +263718911411</h5>
                         </div>
                     </div>
                     <div className="col col-lg-6  col-12">

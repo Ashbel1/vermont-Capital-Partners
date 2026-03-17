@@ -23,7 +23,7 @@ const Footer = (props) => {
                                         <img src={Logo} alt="Vermont Capital Partners" />
                                     </Link>
                                 </div>
-                                <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, investment management, and capital advisory services tailored to your success.</p>
+                                <p>Vermont Capital Partners is an emerging Investment Company based in Harare and Cape Town. We deliver strategic investment solutions, investment management, and capital advisory services tailored to your success.</p>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">
@@ -33,13 +33,11 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Contact us</Link></li>
                                     <li><Link onClick={ClickHandler} to="/services">Case Studies</Link></li>
                                     <li><Link onClick={ClickHandler} to="/services">Our Services</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/contact">Provacu Policy</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Privacy Policy</Link></li>
                                     <li><Link onClick={ClickHandler} to="/testimonials">Testimonials</Link></li>
                                     <li><Link onClick={ClickHandler} to="/blog">News</Link></li>
                                 </ul>
@@ -53,10 +51,12 @@ const Footer = (props) => {
                                 <ul>
                                     <li>Phone: +27 68 804 3460</li>
                                     <li>Email: info@vermontcapitalpartners.com</li>
-                                    <li>Address: 46 Fairmill, Marais Road</li>
-                                    <li>Milnerton, 7441, Cape Town</li>
-                                    <li>Western Cape, South Africa</li>
+                                    <li>Address: 46 Fairmill, Marais Road, Milnerton, 7441, Cape Town, Western Cape, South Africa</li>
                                     <li>Office Hours: 8AM - 5PM (SAST)</li>
+                                    <li style={{marginTop:'10px'}}><strong>Zimbabwe Office:</strong></li>
+                                    <li>Phone: +263718911411</li>
+                                    <li>Address: 59 Ridgeway North, Highlands, Harare, Zimbabwe</li>
+                                    <li>Office Hours: 8AM - 5PM (CAT)</li>
                                 </ul>
                             </div>
                         </div>

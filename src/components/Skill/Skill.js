@@ -7,7 +7,7 @@ const Skill = (props) => {
                 <div className="left-col"></div>
                 <div className="right-col">
                     <h2>Why Vermont Capital Partners is the <br />best choice for strategic investment</h2>
-                    <p>Vermont Capital Partners combines deep market expertise with a diversified portfolio of industry-leading companies. From automotive trading and infrastructure development to financial services and technology solutions, we deliver comprehensive value across multiple sectors in South Africa.</p>
+                    <p>We are a Southern Africa based Investment Company mainly focused on Zimbabwe and Zambia. Vermont Capital Partners combines deep market expertise with a diversified portfolio of industry-leading companies. From TRES Automotive Group and infrastructure development to financial services and technology solutions, we deliver comprehensive value across multiple sectors in Southern Africa.</p>
                     <ul>
                         <li><i className="ti-check"></i>Diversified portfolio across automotive, infrastructure & technology</li>
                         <li><i className="ti-check"></i>Strategic investment management and capital advisory</li>
@@ -53,7 +53,7 @@ const Skill = (props) => {
                         <div className="wpo-skill-text">
                             <h5>Our Professional Skill’s</h5>
                             <h2>Professional Excellence of <span>Vermont Capital Partners.</span></h2>
-                            <p>Vermont Capital Partners brings together exceptional expertise across investment management, wealth advisory, capital markets, and strategic portfolio optimization. Our proven track record in managing diverse investments across automotive, infrastructure, and technology sectors enables us to provide comprehensive financial solutions and deliver outstanding value to our clients and investors throughout South Africa.</p>
+                            <p>Vermont Capital Partners brings together exceptional expertise across investment management, wealth advisory, capital markets, and strategic portfolio optimization. Our proven track record in managing diverse investments across TRES Automotive Group, infrastructure, and technology sectors enables us to provide comprehensive financial solutions and deliver outstanding value to our clients and investors throughout Southern Africa, mainly focused on Zimbabwe and Zambia.</p>
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1 col-md-12 col-12">

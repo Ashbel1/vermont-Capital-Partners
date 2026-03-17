@@ -26,7 +26,7 @@ const About3 = (props) => {
                             <div className="wpo-about-text">
                                 <h4>Welcome To Vermont Capital Partners</h4>
                                 <h2>Your trusted investment and investment management partner.</h2>
-                                <p>Vermont Capital Partners is a premier investment and financial advisory firm based in Cape Town, South Africa. We deliver strategic investment solutions, investment management, and capital advisory services, specializing in building and managing diversified portfolios across multiple high-growth sectors.</p>
+                                <p>Vermont Capital Partners is an emerging Investment Company based in Harare and Cape Town. We deliver strategic investment solutions, investment management, and capital advisory services, specializing in building and managing diversified portfolios across multiple high-growth sectors in Southern Africa, mainly focused on Zimbabwe and Zambia.</p>
                                 <div className="text-sub-wrap">
                                     <div className="text-sub-item">
                                         <i className="fi flaticon-tax"></i>

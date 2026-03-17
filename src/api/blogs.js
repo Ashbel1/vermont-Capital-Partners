@@ -12,7 +12,7 @@ import blogSingleImg3 from "../images/blog/img-6.jpg";
 const blogs = [ 
     {
         id: '1',
-        title: 'Building resilient investment portfolios in South Africa',
+        title: 'Building resilient investment portfolios in Southern Africa',
         slug: 'Building-resilient-investment-portfolios-in-south-africa',
         screens: blogImg1,
         description: 'How Vermont Capital Partners ensures strategic investment solutions and comprehensive investment management for clients across the region.',

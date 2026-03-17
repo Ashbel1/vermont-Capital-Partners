@@ -7,22 +7,22 @@ const Services = [
     {
         Id: '1',
         sImg:simg,
-        sTitle:'Automotive Trading',
-        slug:'Automotive-Trading',
-        description:'Leading automotive solutions provider with two specialized divisions serving South Africa\'s automotive and industrial sectors.',
-        des2:'Through TRES Equipment and TRES AUTO GROUP, we deliver comprehensive automotive products, equipment, and services across the region.',
-        des3:'From quality lubricants and spare parts to new and used vehicles and heavy machinery, we are your trusted automotive partner.',
+        sTitle:'TRES Automotive Group',
+        slug:'TRES-Automotive-Group',
+        description:'Leading automotive solutions provider with two specialized divisions serving Southern Africa\'s automotive and industrial sectors, mainly focused on Zimbabwe and Zambia.',
+        des2:'Through TRES Equipment and TRES AUTO GROUP, we deliver comprehensive automotive products, equipment, and services across Zimbabwe, Zambia, and South Africa.',
+        des3:'Main areas of focus are: Heavy and Earthmoving equipment, Spares and components, Lubricants, New Vehicles and Trucks, Used Trucks and Equipment. Focus markets are Zimbabwe, Zambia, and South Africa.',
         icon:'flaticon-car',
-        fullDescription: 'Vermont Capital Partners\' Automotive Trading division comprises two powerhouse brands: TRES Equipment and TRES AUTO GROUP. Together, we provide comprehensive automotive solutions from premium lubricants and genuine spare parts to new and used vehicles, heavy machinery, and industrial equipment across South Africa.',
-        fullDescription2: 'Our automotive expertise spans retail and wholesale distribution, fleet solutions, and industrial equipment supply. We partner with leading brands like PUMA lubricants to deliver quality products and reliable service that keep South Africa moving.',
+        fullDescription: 'Vermont Capital Partners\' TRES Automotive Group comprises two powerhouse brands: TRES Equipment and TRES AUTO GROUP. Together, we provide comprehensive automotive solutions from premium lubricants and genuine spare parts to new and used vehicles, heavy machinery, and industrial equipment across Southern Africa, mainly focused on Zimbabwe and Zambia.',
+        fullDescription2: 'Our automotive expertise spans retail and wholesale distribution, fleet solutions, and industrial equipment supply. We partner with leading brands like PUMA lubricants to deliver quality products and reliable service that keep Southern Africa moving.',
         mainTitle: 'Comprehensive Automotive Solutions',
         serviceFeatures: [
-            'Premium PUMA lubricants distribution',
-            'Genuine OEM spare parts supply',
-            'New and certified used vehicles',
-            'Heavy machinery and yellow equipment',
-            'Fleet management solutions',
-            'Industrial equipment supply'
+            'Heavy and Earthmoving equipment',
+            'Spares and components',
+            'Lubricants (PUMA)',
+            'New Vehicles and Trucks',
+            'Used Trucks and Equipment',
+            'Focus markets: Zimbabwe, Zambia, South Africa'
         ],
         capabilities: [
             'Authorized distributor network',
@@ -110,6 +110,7 @@ const Services = [
             'Enterprise hardware & software distribution',
             'Cloud infrastructure & platform services',
             'Data storage, backup & disaster recovery',
+            'Cyber Security',
             'Business intelligence & data analytics',
             'Market research & competitive insights',
             'IT infrastructure consulting & deployment'
@@ -127,7 +128,7 @@ const Services = [
                 name: 'IT Distribution & Enterprise Solutions',
                 slug: 'IT-Enterprise-Solutions',
                 description: 'Complete technology infrastructure and enterprise systems',
-                services: ['Hardware Distribution', 'Enterprise Solutions', 'Cloud Platforms', 'Data Storage Solutions'],
+                services: ['Hardware Distribution', 'Enterprise Solutions', 'Cloud Platforms', 'Data Storage Solutions', 'Cyber Security'   ],
                 icon: 'flaticon-server'
             },
             {

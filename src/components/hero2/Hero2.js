@@ -27,7 +27,7 @@ const Hero2 = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Strategic Investment Management Across South Africa</h2>
+                                <h2>Strategic Investment Management Across Southern Africa</h2>
                             </div>
                             <div className="slide-text">
                                 <p>Comprehensive investment management and portfolio optimization with proven expertise and professional advisory support.</p>

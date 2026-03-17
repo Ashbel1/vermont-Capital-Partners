@@ -13,7 +13,7 @@ const MissionVission = () => {
                     <div className="col col-xl-8 col-lg-10">
                         <FadeInSection delay={0.1}>
                             <div className="title-area">
-                                <h2>Vermont Capital Partners drives sustainable growth and value creation through strategic investments in automotive trading, infrastructure development, financial services, and technology solutions across South Africa.</h2>
+                                <h2>Vermont Capital Partners drives sustainable growth and value creation through strategic investments in TRES Automotive Group, infrastructure development, financial services, and technology solutions across Southern Africa, mainly focused on Zimbabwe and Zambia.</h2>
                             </div>
                         </FadeInSection>
                     </div>
@@ -36,7 +36,7 @@ const MissionVission = () => {
                                         <img src={abimg2} alt="" />
                                     </div>
                                     <h3>Our Vision</h3>
-                                    <p>Be the most trusted investment and investment management partner for individuals and organizations building financial prosperity across South Africa.</p>
+                                    <p>Be the most trusted investment and investment management partner for individuals and organizations building financial prosperity across Southern Africa, mainly focused on Zimbabwe and Zambia.</p>
                                 </div>
                             </AnimatedSection>
                             <AnimatedSection direction="right" delay={0.4}>

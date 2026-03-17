@@ -41,10 +41,12 @@ const Contactpage = () => {
                                     <i className="ti-location-arrow"></i>
                                 </div>
                                 <h5>Address</h5>
-                                <p>Vermont Capital Partners</p>
-                                 <p>46 Fairmill, Marais Road</p>
-                                  <p>Milnerton, 7441</p>
-                                   <p>Cape Town, Western Cape, South Africa</p>
+                                          <p>Vermont Capital Partners</p>
+                                            <p>46 Fairmill, Marais Road</p>
+                                             <p>Milnerton, 7441</p>
+                                              <p>Cape Town, Western Cape, South Africa</p>
+                                              <p><strong>Zimbabwe Office:</strong> 59 Ridgeway North, Highlands, Harare, Zimbabwe</p>
+                                              <p>Phone: +263718911411</p>
                             </div>
                         </div>
 

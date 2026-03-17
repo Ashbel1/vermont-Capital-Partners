@@ -29,7 +29,7 @@ const Hero = () => {
                                 <h2>Strategic Investment Partners</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Building sustainable wealth through strategic investments and financial excellence in South Africa.</p>
+                                <p>Building sustainable wealth through strategic investments and financial excellence in Southern Africa, mainly focused on Zimbabwe and Zambia.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">

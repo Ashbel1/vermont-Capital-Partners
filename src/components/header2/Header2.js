@@ -22,7 +22,7 @@ const Header2 = (props) => {
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <MobileMenu />
-                        <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img src={Logo} alt="" /></Link>
+                        <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img src={Logo} alt="" style={{height:'130px'}} /></Link>
                     </div>
                     <div id="navbar" className="collapse navbar-collapse navigation-holder">
                         <button className="close-navbar"><i className="ti-close"></i></button>
@@ -38,7 +38,7 @@ const Header2 = (props) => {
                                 <Link onClick={ClickHandler} to="/services">Services</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/services">All Services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-single/Automotive-Trading">Automotive Trading</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-single/TRES-Automotive-Group">Automotive Trading</Link></li>
                                     <li><Link onClick={ClickHandler} to="/service-single/Toughrock-Investments">Toughrock Investments</Link></li>
                                     <li><Link onClick={ClickHandler} to="/service-single/Digiroc-Technologies">Digiroc Technologies</Link></li>
                                 </ul>

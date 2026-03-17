@@ -13,7 +13,7 @@ const Hero3 = () => {
                             <h2>Premier Investment & Investment Management Partner</h2>
                         </div>
                         <div data-swiper-parallax="400" className="slide-text">
-                            <p>Empowering financial growth through strategic investment solutions, comprehensive investment management, and capital advisory services across South Africa.</p>
+                            <p>Empowering financial growth through strategic investment solutions, comprehensive investment management, and capital advisory services across Southern Africa, mainly focused on Zimbabwe and Zambia.</p>
                         </div>
                         <div className="clearfix"></div>
                         <div data-swiper-parallax="500" className="slide-btns">

@@ -8,7 +8,7 @@ const WorkProcess = (props) => {
                     <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section-title">
                             <span>Our work process</span>
-                            <h3>Vermont Capital Partners delivers strategic investment solutions and exceptional value through our portfolio of industry-leading companies, driving growth and innovation across automotive, infrastructure, finance, and technology sectors in South Africa.</h3>
+                            <h3>Vermont Capital Partners delivers strategic investment solutions and exceptional value through our portfolio of industry-leading companies, driving growth and innovation across TRES Automotive Group, infrastructure, finance, and technology sectors in Southern Africa, mainly focused on Zimbabwe and Zambia.</h3>
                         </div>
                     </div>
                 </div>

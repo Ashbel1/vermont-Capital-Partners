@@ -13,6 +13,7 @@ const ContactSection = () => {
                         <h4 style={{ color: '#fff' }}>Ready to grow your wealth? Contact Vermont Capital Partners today.</h4>
                         <p style={{ color: '#fff', marginTop: '15px' }}>Phone: +27 68 804 3460 | Email: info@vermontcapitalpartners.com</p>
                         <p style={{ color: '#fff', fontSize: '14px' }}>46 Fairmill, Marais Road, Milnerton, Cape Town, 7441, South Africa</p>
+                        <p style={{ color: '#fff', marginTop: '15px' }}><strong>Zimbabwe Office:</strong> 59 Ridgeway North, Highlands, Harare, Zimbabwe | Phone: +263718911411</p>
                     </div>
                 </div>
                 <div className="right-col">
