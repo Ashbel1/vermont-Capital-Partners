@@ -1,44 +1,23 @@
-name: Deploy React App to Namecheap
-
-# This workflow deploys your site to Namecheap cPanel hosting via SSH on push to master.
-#
-# Required GitHub secrets (set these in your repo settings):
-#   SSH_PRIVATE_KEY: Private key for your cPanel SSH user (RECOMMENDED: no passphrase)
-#   SSH_USER:        Your cPanel SSH username
-#   SSH_HOST:        Your server hostname (e.g. server123.namecheap.com)
-#   SSH_PORT:        (optional, default 21098)
-#   SSH_PASSPHRASE:  (optional, only if your key is passphrase-protected)
+name: Deploy to Server
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Build step (uncomment if you want to build before deploy)
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: '18'
-      # - name: Install dependencies
-      #   run: npm ci
-      # - name: Build React app
-      #   run: npm run build
-
-      - name: Deploy to Namecheap via SSH
-        uses: appleboy/ssh-action@v0.1.5
+      - uses: actions/checkout@v3
+      
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.SSH_PORT || '21098' }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }} # Only needed if your key has a passphrase
+          port: ${{ secrets.SSH_PORT || 22 }}
           script: |
-            cd /home/vermopfx/public_html
-            git pull origin master || git pull origin main
-            # Optionally, run build or restart commands here
+            cd /var/www/your-website  # Change this to your actual path
+            git pull origin main
+            # Add any other commands like npm install, build, etc.
