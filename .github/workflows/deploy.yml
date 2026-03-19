@@ -1,23 +1,42 @@
-name: Deploy to Server
+# This workflow builds and deploys your React app to Namecheap FTP server
+# Store your FTP credentials as GitHub repository secrets for security:
+#   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD, FTP_PORT, FTP_SERVER_DIR
+# Go to your repo > Settings > Secrets and variables > Actions > New repository secret
+
+name: Deploy React App to FTP
 
 on:
   push:
-    branches: [ master]
+    branches:
+      - master  # Changed to match your branch name
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.SSH_PORT || 22 }}
-          script: |
-            cd /var/www/your-website  # Change this to your actual path
-            git pull origin main
-            # Add any other commands like npm install, build, etc.
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Deploy to FTP server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          protocol: ftp
+          local-dir: ./build
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          dangerous-clean-slate: true  # Remove this if you don't want to delete all files before upload
